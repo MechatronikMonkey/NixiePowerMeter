@@ -58,76 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|376000000|186250000|a444f140-960b-4e00-9d71-2a0dfa709c00|592a02e6-de79-451c-a281-9a8eded78ce7",
-          ""
-        ],
-        [
-          "clearance|376000000|186250000|a444f140-960b-4e00-9d71-2a0dfa709c00|a132e3a6-4e4e-48f6-8809-4bda8ccbc049",
-          ""
-        ],
-        [
-          "clearance|378000000|186250000|6d2bdd56-296d-494a-af3b-24c5eed825db|592a02e6-de79-451c-a281-9a8eded78ce7",
-          ""
-        ],
-        [
-          "clearance|378000000|186250000|6d2bdd56-296d-494a-af3b-24c5eed825db|a132e3a6-4e4e-48f6-8809-4bda8ccbc049",
-          ""
-        ],
-        [
-          "clearance|483250000|193250000|06b546a6-6e68-42c8-aecf-c7495808875c|a1eeee60-2af1-4eee-8d8d-dd3a71ebe859",
-          ""
-        ],
-        [
-          "clearance|483250000|193250000|06b546a6-6e68-42c8-aecf-c7495808875c|da1336f6-f268-441f-9b3a-1cc808d4eddb",
-          ""
-        ],
-        [
-          "clearance|485250000|193250000|cd8edd08-a364-4971-962e-4f0ce6378e9d|a1eeee60-2af1-4eee-8d8d-dd3a71ebe859",
-          ""
-        ],
-        [
-          "clearance|485250000|193250000|cd8edd08-a364-4971-962e-4f0ce6378e9d|da1336f6-f268-441f-9b3a-1cc808d4eddb",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|377000000|186250000|d31971ec-aab8-4650-92da-f84dbcffa5d6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|376000000|186250000|592a02e6-de79-451c-a281-9a8eded78ce7|a444f140-960b-4e00-9d71-2a0dfa709c00",
-          ""
-        ],
-        [
-          "solder_mask_bridge|376000000|186250000|a132e3a6-4e4e-48f6-8809-4bda8ccbc049|a444f140-960b-4e00-9d71-2a0dfa709c00",
-          ""
-        ],
-        [
-          "solder_mask_bridge|378000000|186250000|592a02e6-de79-451c-a281-9a8eded78ce7|6d2bdd56-296d-494a-af3b-24c5eed825db",
-          ""
-        ],
-        [
-          "solder_mask_bridge|378000000|186250000|a132e3a6-4e4e-48f6-8809-4bda8ccbc049|6d2bdd56-296d-494a-af3b-24c5eed825db",
-          ""
-        ],
-        [
-          "solder_mask_bridge|483250000|193250000|a1eeee60-2af1-4eee-8d8d-dd3a71ebe859|06b546a6-6e68-42c8-aecf-c7495808875c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|483250000|193250000|da1336f6-f268-441f-9b3a-1cc808d4eddb|06b546a6-6e68-42c8-aecf-c7495808875c",
-          ""
-        ],
-        [
-          "solder_mask_bridge|485250000|193250000|a1eeee60-2af1-4eee-8d8d-dd3a71ebe859|cd8edd08-a364-4971-962e-4f0ce6378e9d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|485250000|193250000|da1336f6-f268-441f-9b3a-1cc808d4eddb|cd8edd08-a364-4971-962e-4f0ce6378e9d",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -257,6 +188,8 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
+        0.7,
         1.0,
         2.0,
         3.0
@@ -291,6 +224,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
         },
         {
           "diameter": 1.0,
@@ -712,6 +649,86 @@
     [
       "6805e3ef-87bd-473d-890f-05ae2da73c1a",
       "Root"
+    ],
+    [
+      "32ad0542-c70b-4052-bbb0-1efea4e68e84",
+      "NixieDigit2"
+    ],
+    [
+      "a0ca8db1-c183-4490-9c30-a3c01e2ceb0d",
+      "NixieDigit3"
+    ],
+    [
+      "69857097-fe9d-400d-a6e2-fdfdd274c5d3",
+      "NixieDigit1"
+    ],
+    [
+      "4037414e-7927-47ae-86db-f8006ae2c69f",
+      "NixieDigit4"
+    ],
+    [
+      "22daa365-0e85-4ac3-a450-9ddee6b569d8",
+      "NixieDigit5"
+    ],
+    [
+      "fa8c797e-0001-4d98-a1cd-0ae2141fbc1c",
+      "NixieDigit6"
+    ],
+    [
+      "d263a6b0-9af3-46dd-9996-4eefdb37d77a",
+      "NixieDigit7"
+    ],
+    [
+      "48579928-655f-4dc6-931a-fba3d9af47ff",
+      "NixieDigit8"
+    ],
+    [
+      "3071fa8f-8037-4094-9d47-02c41a3a969b",
+      "NixieDigit9"
+    ],
+    [
+      "22354dee-ead2-43af-bac4-d7d30b351c33",
+      "NixieDigit10"
+    ],
+    [
+      "48c55803-b37f-4fbf-8ba6-5d22fbaa5871",
+      "NixieDigit11"
+    ],
+    [
+      "e6d5ae08-c800-40bf-ab6a-5d69d15916fd",
+      "NixieDigit12"
+    ],
+    [
+      "2bcb781e-538e-43e6-8b70-0534847c6353",
+      "NixieDigit13"
+    ],
+    [
+      "3777e9e5-6130-4147-9d6a-01d48a1ffeaa",
+      "NixieDigit14"
+    ],
+    [
+      "5eeaadde-aca6-48ed-a48c-a602ae1ea7d6",
+      "NixieDigit15"
+    ],
+    [
+      "35012ccf-133b-4686-82f5-fe58f32cef23",
+      "NixieDigit16"
+    ],
+    [
+      "5a0c813f-1712-4c98-932f-2a705ff21624",
+      "NixieDigit17"
+    ],
+    [
+      "2de7be0b-2a7d-49f9-9235-d6c2b76776ce",
+      "NixieDigit18"
+    ],
+    [
+      "8c2a9b01-61d8-44dc-9217-449019833547",
+      "NixieDigit19"
+    ],
+    [
+      "036a2b0d-49fb-4d24-a26e-d98bcced4ff8",
+      "NixieDigit20"
     ]
   ],
   "text_variables": {}

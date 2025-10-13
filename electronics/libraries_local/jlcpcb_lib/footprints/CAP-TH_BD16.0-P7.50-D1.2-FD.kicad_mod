@@ -4,11 +4,11 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "CAP-TH_BD16.0-P7.50-D1.2-FD footprint")
-	(tags "CAP-TH_BD16.0-P7.50-D1.2-FD footprint C10737")
+	(tags "CAP-TH_BD16.0-P7.50-D1.2-FD footprint C440818")
 	(property "Reference" "REF**"
 		(at -1.9016 -3.193726 0)
 		(layer "F.SilkS")
-		(uuid "82910f68-5cd3-409c-a8e0-270862852d20")
+		(uuid "1787ac1c-5de1-4d39-8150-8a51871fe90e")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "CAP-TH_BD16.0-P7.50-D1.2-FD"
 		(at -1.9016 2.533477 0)
 		(layer "F.Fab")
-		(uuid "4afaa5da-b9f4-4c4b-9826-69891af89cfe")
+		(uuid "2db0adf0-9cc6-4c1a-a9ad-ce4a55574c4f")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "92f96ea4-9cf1-40c5-a4fb-70310d9924a2")
+		(uuid "5d749438-a7b5-4378-9721-bb2093a89a72")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9b49cfd6-989e-429b-8ba0-bf3abe486db6")
+		(uuid "9c53eeee-d476-4983-98d5-47ad482b696a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -60,7 +60,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "05c20ba3-2fea-4198-9420-ca29363c8025")
+		(uuid "dd0037a0-fe28-4e61-b24e-342417088516")
 	)
 	(fp_line
 		(start -5.876734 -0.304724)
@@ -70,7 +70,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c35613f8-5726-48bf-b5bf-732677896245")
+		(uuid "1f33a0d9-0a06-4605-8a68-f74714b10e98")
 	)
 	(fp_circle
 		(center -8.000127 8)
@@ -81,7 +81,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "97d14d26-cbb1-440c-b8a0-2c52b4c1f896")
+		(uuid "a4ea317b-63ab-4665-bee9-97282825ed41")
 	)
 	(fp_circle
 		(center 0.000127 0)
@@ -92,12 +92,12 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "c1dafedf-4730-4285-b8a7-2cfc5bcce091")
+		(uuid "e6a57776-4c13-4732-9467-25382ae899ab")
 	)
 	(fp_text user "REF**"
 		(at -1.9016 4.533477 0)
 		(layer "F.Fab")
-		(uuid "c754a919-e093-45d3-aa53-43e331f56e57")
+		(uuid "5975232a-c968-4563-a9b8-28723d0e4991")
 		(effects
 			(font
 				(size 1 1)
@@ -111,7 +111,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "a356c97f-65ff-494c-abfb-253ab8e99874")
+		(uuid "5aefd2a4-f379-4ae8-a007-f3cb3157697d")
 	)
 	(pad "2" thru_hole circle
 		(at 3.749936 0)
@@ -119,7 +119,7 @@
 		(drill 1.2)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "fe9f7eb6-dee4-48e6-991d-a3c25be80ff4")
+		(uuid "e87a192b-0ac1-4fb0-90ba-7c20e8874487")
 	)
 	(embedded_fonts no)
 	(model "packages3d/CAP-TH_BD16.0-P7.50-D1.2-FD.step"

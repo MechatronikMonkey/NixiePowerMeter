@@ -1,4 +1,4 @@
-517833285577492
+531104963267103
 Connector
 BJB_Pico_46.110.1001_Receptacle_Horizontal
 BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
@@ -1815,7 +1815,7 @@ C0603 footprint C19666
 footprints
 C0805
 C0805 footprint
-C0805 footprint C49678
+C0805 footprint C1743
 0
 2
 2
@@ -1857,7 +1857,7 @@ CAP-TH_BD12.5-P5.00-D0.6-FD footprint C443401
 footprints
 CAP-TH_BD16.0-P7.50-D1.2-FD
 CAP-TH_BD16.0-P7.50-D1.2-FD footprint
-CAP-TH_BD16.0-P7.50-D1.2-FD footprint C10737
+CAP-TH_BD16.0-P7.50-D1.2-FD footprint C440818
 0
 2
 2
@@ -1868,6 +1868,13 @@ COMM-SMD_RP2040-ZERO footprint C5350143
 0
 18
 18
+footprints
+DO-41_BD2.4-L4.7-P8.70-D0.8-RD
+DO-41_BD2.4-L4.7-P8.70-D0.8-RD footprint
+DO-41_BD2.4-L4.7-P8.70-D0.8-RD footprint C5174493
+0
+2
+2
 footprints
 DO-41_BD2.4-L4.7-P8.70-D0.9-RD
 DO-41_BD2.4-L4.7-P8.70-D0.9-RD footprint
@@ -1904,6 +1911,20 @@ HEATSINK-TH_XSD366-094 footprint C286227
 2
 2
 footprints
+IN-8_NIXIE
+IN-8 Nixie Tube, 11 pins on 9.5mm pitch circle, 18mm tube diameter, RSH27 base
+nixie tube IN-8 RSH27
+0
+11
+11
+footprints
+IND-SMD_L5.8-W5.2
+IND-SMD_L5.8-W5.2 footprint
+IND-SMD_L5.8-W5.2 footprint C5289430
+0
+2
+2
+footprints
 MBS_L4.7-W4.0-P2.50-LS7.0-BL
 MBS_L4.7-W4.0-P2.50-LS7.0-BL footprint
 MBS_L4.7-W4.0-P2.50-LS7.0-BL footprint C475740
@@ -1924,6 +1945,13 @@ PWRM-TH_IRM-03-5-DIP5 footprint C6969425
 0
 5
 5
+footprints
+R0603
+R0603 footprint
+R0603 footprint C23138
+0
+2
+2
 footprints
 RELAY-TH_G5V-1
 RELAY-TH_G5V-1 footprint
@@ -2004,7 +2032,7 @@ RES-TH_BD5.5-L15.0-P19.00-D0.8 footprint C120810
 footprints
 RES-TH_BD6.0-L17.5-P21.50-D0.8
 RES-TH_BD6.0-L17.5-P21.50-D0.8 footprint
-RES-TH_BD6.0-L17.5-P21.50-D0.8 footprint C121969
+RES-TH_BD6.0-L17.5-P21.50-D0.8 footprint C2905221
 0
 2
 2
@@ -2012,6 +2040,13 @@ footprints
 RES-TH_BD9.5-L22.0-P26.00-D0.7
 RES-TH_BD9.5-L22.0-P26.00-D0.7 footprint
 RES-TH_BD9.5-L22.0-P26.00-D0.7 footprint C334294
+0
+2
+2
+footprints
+SMA_L4.3-W2.6-LS5.2-RD
+SMA_L4.3-W2.6-LS5.2-RD footprint
+SMA_L4.3-W2.6-LS5.2-RD footprint C123904
 0
 2
 2
@@ -2036,6 +2071,20 @@ SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint C5947
 0
 16
 16
+footprints
+SOP-8_L5.0-W4.0-P1.27-LS6.0-BL
+SOP-8_L5.0-W4.0-P1.27-LS6.0-BL footprint
+SOP-8_L5.0-W4.0-P1.27-LS6.0-BL footprint C911185
+0
+8
+8
+footprints
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint
+SOT-223_L6.5-W3.5-P2.30-LS7.0-BR footprint C128261
+0
+4
+4
 footprints
 SW-TH_MT-0-102-C004-N004-RS
 SW-TH_MT-0-102-C004-N004-RS footprint

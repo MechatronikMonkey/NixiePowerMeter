@@ -1,6 +1,6 @@
-(module "C0805" (layer F.Cu) (tedit 68E98BAE)
+(module "C0805" (layer F.Cu) (tedit 68ECDE91)
   (descr "C0805 footprint")
-  (tags "C0805 footprint C49678")
+  (tags "C0805 footprint C1743")
   (attr smd)
   (fp_text reference REF** (at 0 -2.903607) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
