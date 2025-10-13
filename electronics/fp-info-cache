@@ -1,0 +1,2066 @@
+517833285577492
+Connector
+BJB_Pico_46.110.1001_Receptacle_Horizontal
+BJB Pico, single terminal block/receptacle, uninsulated, SMD, 6.9x2.3x2.7mm, https://www.bjb.com/media/7a/b3/df/1740905546/DM-6265102-v6_BJB_Datasheet_46.110.1001-0_SMD_Terminal_block_without_housing_Update_03_2022.PDF
+socket
+0
+5
+1
+Connector
+Banana_Cliff_FCR7350B_S16N-PC_Horizontal
+Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, black, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
+cliff 4mm socket jack banana black
+0
+1
+1
+Connector
+Banana_Cliff_FCR7350G_S16N-PC_Horizontal
+Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, green, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
+cliff 4mm socket jack banana green
+0
+1
+1
+Connector
+Banana_Cliff_FCR7350L_S16N-PC_Horizontal
+Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, blue, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
+cliff 4mm socket jack banana blue
+0
+1
+1
+Connector
+Banana_Cliff_FCR7350N_S16N-PC_Horizontal
+Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, brown, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
+cliff 4mm socket jack banana brown
+0
+1
+1
+Connector
+Banana_Cliff_FCR7350R_S16N-PC_Horizontal
+Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, red, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
+cliff 4mm socket jack banana red
+0
+1
+1
+Connector
+Banana_Cliff_FCR7350Y_S16N-PC_Horizontal
+Cliff single 4mm shrouded banana panel socket, through-hole, horizontal, yellow, https://www.cliffuk.co.uk/products/testleads/sockets/S16NPC.pdf
+cliff 4mm socket jack banana yellow
+0
+1
+1
+Connector
+Banana_Jack_1Pin
+Single banana socket, footprint - 6mm drill
+banana socket
+0
+1
+1
+Connector
+Banana_Jack_2Pin
+Dual banana socket, footprint - 2 x 6mm drills
+banana socket
+0
+2
+2
+Connector
+Banana_Jack_3Pin
+Triple banana socket, footprint - 3 x 6mm drills
+banana socket
+0
+3
+3
+Connector
+CUI_PD-30
+3 pin connector, PD-30, http://www.cui.com/product/resource/pd-30.pdf
+connector 3-pin PD-30 power DIN
+0
+4
+4
+Connector
+CUI_PD-30S
+3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf
+connector 3-pin PD-30S power DIN shielded
+0
+8
+5
+Connector
+CUI_PD-30S_CircularHoles
+3-pin nonstandard DIN connector, shielded, PD-30S, http://www.cui.com/product/resource/pd-30s.pdf
+connector 3-pin PD-30S power DIN shielded
+0
+8
+5
+Connector
+CalTest_CT3151
+Right-angle standard banana jack, http://www.caltestelectronics.com/images/attachments/P315100rH_drawing.pdf
+banana jack horizontal
+0
+4
+1
+Connector
+Conn_C14_Receptacle_RightAngle_Schurter_DD21.01xx
+C14 Power Receptacle https://www.schurter.com/en/datasheet/typ_DD21.pdf
+C14 IEC 250V Schurter
+0
+3
+3
+Connector
+Connector_SFP_and_Cage
+https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=2227302&DocType=Customer+Drawing&DocLang=English
+SFP+ SFP
+0
+40
+21
+Connector
+DTF13-12Px
+http://www.te.com/usa-en/product-DTF13-12PA-G003.html
+DEUTSCH DT header 12 pin 
+0
+12
+12
+Connector
+FanPinHeader_1x03_P2.54mm_Vertical
+3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 3-pin CPU fan
+0
+3
+3
+Connector
+FanPinHeader_1x04_P2.54mm_Vertical
+4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
+pin header 4-pin CPU fan
+0
+4
+4
+Connector
+GB042-34S-H10
+http://www.lsmtron.com/pdf/Connector&Antenna_catalog.PDF
+34pin SMD connector 
+0
+34
+34
+Connector
+IHI_B6A-PCB-45_Vertical
+https://lugsdirect.com/PDF_Webprint/B6A-PCB-45-XX(-X).pdf
+connector IHI B6A-PCB-45
+0
+49
+1
+Connector
+JWT_A3963_1x02_P3.96mm_Vertical
+JWT A3963, 3.96mm pitch Pin head connector (http://www.jwt.com.tw/pro_pdf/A3963.pdf)
+connector JWT A3963 pinhead
+0
+2
+2
+Connector
+Joint-Tech_C5080WR-04P_1x04_P5.08mm_Vertical
+C5080 SERIES 90° Wafer, (https://datasheet.lcsc.com/lcsc/1912261836_HR-Joint-Tech-Elec-C5080WR-04P_C477015.pdf)
+connector side-entry ATA PATA IDE 5.25 inch floppy drive power
+0
+6
+5
+Connector
+NS-Tech_Grove_1x04_P2mm_Vertical
+https://statics3.seeedstudio.com/images/opl/datasheet/3470130P1.pdf
+Grove-1x04
+0
+4
+4
+Connector
+OCN_OK-01GM030-04_2x15_P0.4mm_Vertical
+Board to board connector, 2x15, 0.4mm pitch, http://www.main-soul.com/datasheet/ocn/connector/Spec_Draw_OK-01.pdf
+board-to-board
+0
+30
+30
+Connector
+SpringContact_Harwin_S1941-46R
+7.25mm SMT Multi-directional Spring Contact (T+R), https://cdn.harwin.com/pdfs/S1941R.pdf
+spring contact emi emc shield
+0
+1
+1
+Connector
+Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf
+tag connect programming header pogo pins
+0
+6
+6
+Connector
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
+0
+6
+6
+Connector
+Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-430%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2050-IDC-NL%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical_with_bottom_clip
+Tag-Connect programming header with bottom courtyard for TC2050-NL Clip board ; https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-IDC-NL_Datasheet_8.pdf https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2050-CLIP_Datasheet_25.pdf
+tag connect programming header pogo pins
+0
+10
+10
+Connector
+Tag-Connect_TC2070-IDC-FP_2x07_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2070-IDC%20Datasheet.pdf
+tag connect programming header pogo pins
+0
+14
+14
+MountingHole
+MountingHole_2.1mm
+Mounting Hole 2.1mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_2.2mm_M2
+Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
+0
+0
+0
+MountingHole
+MountingHole_2.2mm_M2_DIN965
+Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 DIN965
+0
+0
+0
+MountingHole
+MountingHole_2.2mm_M2_DIN965_Pad
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 DIN965
+0
+1
+1
+MountingHole
+MountingHole_2.2mm_M2_DIN965_Pad_TopBottom
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 DIN965
+0
+3
+1
+MountingHole
+MountingHole_2.2mm_M2_DIN965_Pad_TopOnly
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 DIN965
+0
+2
+1
+MountingHole
+MountingHole_2.2mm_M2_ISO7380
+Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO7380
+0
+0
+0
+MountingHole
+MountingHole_2.2mm_M2_ISO7380_Pad
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO7380
+0
+1
+1
+MountingHole
+MountingHole_2.2mm_M2_ISO7380_Pad_TopBottom
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO7380
+0
+3
+1
+MountingHole
+MountingHole_2.2mm_M2_ISO7380_Pad_TopOnly
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO7380
+0
+2
+1
+MountingHole
+MountingHole_2.2mm_M2_ISO14580
+Mounting Hole 2.2mm, M2, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO14580
+0
+0
+0
+MountingHole
+MountingHole_2.2mm_M2_ISO14580_Pad
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO14580
+0
+1
+1
+MountingHole
+MountingHole_2.2mm_M2_ISO14580_Pad_TopBottom
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO14580
+0
+3
+1
+MountingHole
+MountingHole_2.2mm_M2_ISO14580_Pad_TopOnly
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2 ISO14580
+0
+2
+1
+MountingHole
+MountingHole_2.2mm_M2_Pad
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
+0
+1
+1
+MountingHole
+MountingHole_2.2mm_M2_Pad_TopBottom
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
+0
+3
+1
+MountingHole
+MountingHole_2.2mm_M2_Pad_TopOnly
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
+0
+2
+1
+MountingHole
+MountingHole_2.2mm_M2_Pad_Via
+Mounting Hole 2.2mm, M2, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2
+0
+9
+1
+MountingHole
+MountingHole_2.5mm
+Mounting Hole 2.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_2.5mm_Pad
+Mounting Hole 2.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_2.5mm_Pad_TopBottom
+Mounting Hole 2.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_2.5mm_Pad_TopOnly
+Mounting Hole 2.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_2.5mm_Pad_Via
+Mounting Hole 2.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_2.7mm
+Mounting Hole 2.7mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_2.7mm_M2.5
+Mounting Hole 2.7mm, M2.5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
+0
+0
+0
+MountingHole
+MountingHole_2.7mm_M2.5_DIN965
+Mounting Hole 2.7mm, M2.5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 DIN965
+0
+0
+0
+MountingHole
+MountingHole_2.7mm_M2.5_DIN965_Pad
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 DIN965
+0
+1
+1
+MountingHole
+MountingHole_2.7mm_M2.5_DIN965_Pad_TopBottom
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 DIN965
+0
+3
+1
+MountingHole
+MountingHole_2.7mm_M2.5_DIN965_Pad_TopOnly
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 DIN965
+0
+2
+1
+MountingHole
+MountingHole_2.7mm_M2.5_ISO7380
+Mounting Hole 2.7mm, M2.5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO7380
+0
+0
+0
+MountingHole
+MountingHole_2.7mm_M2.5_ISO7380_Pad
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO7380
+0
+1
+1
+MountingHole
+MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO7380
+0
+3
+1
+MountingHole
+MountingHole_2.7mm_M2.5_ISO7380_Pad_TopOnly
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO7380
+0
+2
+1
+MountingHole
+MountingHole_2.7mm_M2.5_ISO14580
+Mounting Hole 2.7mm, M2.5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO14580
+0
+0
+0
+MountingHole
+MountingHole_2.7mm_M2.5_ISO14580_Pad
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO14580
+0
+1
+1
+MountingHole
+MountingHole_2.7mm_M2.5_ISO14580_Pad_TopBottom
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO14580
+0
+3
+1
+MountingHole
+MountingHole_2.7mm_M2.5_ISO14580_Pad_TopOnly
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5 ISO14580
+0
+2
+1
+MountingHole
+MountingHole_2.7mm_M2.5_Pad
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
+0
+1
+1
+MountingHole
+MountingHole_2.7mm_M2.5_Pad_TopBottom
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
+0
+3
+1
+MountingHole
+MountingHole_2.7mm_M2.5_Pad_TopOnly
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
+0
+2
+1
+MountingHole
+MountingHole_2.7mm_M2.5_Pad_Via
+Mounting Hole 2.7mm, M2.5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M2.5
+0
+9
+1
+MountingHole
+MountingHole_2.7mm_Pad
+Mounting Hole 2.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_2.7mm_Pad_TopBottom
+Mounting Hole 2.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_2.7mm_Pad_TopOnly
+Mounting Hole 2.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_2.7mm_Pad_Via
+Mounting Hole 2.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_2mm
+Mounting Hole 2mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
+0
+0
+0
+MountingHole
+MountingHole_3.2mm_M3_DIN965
+Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 DIN965
+0
+0
+0
+MountingHole
+MountingHole_3.2mm_M3_DIN965_Pad
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 DIN965
+0
+1
+1
+MountingHole
+MountingHole_3.2mm_M3_DIN965_Pad_TopBottom
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 DIN965
+0
+3
+1
+MountingHole
+MountingHole_3.2mm_M3_DIN965_Pad_TopOnly
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 DIN965
+0
+2
+1
+MountingHole
+MountingHole_3.2mm_M3_ISO7380
+Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
+0
+0
+0
+MountingHole
+MountingHole_3.2mm_M3_ISO7380_Pad
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
+0
+1
+1
+MountingHole
+MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
+0
+3
+1
+MountingHole
+MountingHole_3.2mm_M3_ISO7380_Pad_TopOnly
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO7380
+0
+2
+1
+MountingHole
+MountingHole_3.2mm_M3_ISO14580
+Mounting Hole 3.2mm, M3, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO14580
+0
+0
+0
+MountingHole
+MountingHole_3.2mm_M3_ISO14580_Pad
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO14580
+0
+1
+1
+MountingHole
+MountingHole_3.2mm_M3_ISO14580_Pad_TopBottom
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO14580
+0
+3
+1
+MountingHole
+MountingHole_3.2mm_M3_ISO14580_Pad_TopOnly
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3 ISO14580
+0
+2
+1
+MountingHole
+MountingHole_3.2mm_M3_Pad
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
+0
+1
+1
+MountingHole
+MountingHole_3.2mm_M3_Pad_TopBottom
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
+0
+3
+1
+MountingHole
+MountingHole_3.2mm_M3_Pad_TopOnly
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
+0
+2
+1
+MountingHole
+MountingHole_3.2mm_M3_Pad_Via
+Mounting Hole 3.2mm, M3, generated by kicad-footprint-generator mountinghole.py
+mountinghole M3
+0
+9
+1
+MountingHole
+MountingHole_3.5mm
+Mounting Hole 3.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_3.5mm_Pad
+Mounting Hole 3.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_3.5mm_Pad_TopBottom
+Mounting Hole 3.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_3.5mm_Pad_TopOnly
+Mounting Hole 3.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_3.5mm_Pad_Via
+Mounting Hole 3.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_3.7mm
+Mounting Hole 3.7mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_3.7mm_Pad
+Mounting Hole 3.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_3.7mm_Pad_TopBottom
+Mounting Hole 3.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_3.7mm_Pad_TopOnly
+Mounting Hole 3.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_3.7mm_Pad_Via
+Mounting Hole 3.7mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_3mm
+Mounting Hole 3mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_3mm_Pad
+Mounting Hole 3mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_3mm_Pad_TopBottom
+Mounting Hole 3mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_3mm_Pad_TopOnly
+Mounting Hole 3mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_3mm_Pad_Via
+Mounting Hole 3mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_4.3mm_M4
+Mounting Hole 4.3mm, M4, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
+0
+0
+0
+MountingHole
+MountingHole_4.3mm_M4_DIN965
+Mounting Hole 4.3mm, M4, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 DIN965
+0
+0
+0
+MountingHole
+MountingHole_4.3mm_M4_DIN965_Pad
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 DIN965
+0
+1
+1
+MountingHole
+MountingHole_4.3mm_M4_DIN965_Pad_TopBottom
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 DIN965
+0
+3
+1
+MountingHole
+MountingHole_4.3mm_M4_DIN965_Pad_TopOnly
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 DIN965
+0
+2
+1
+MountingHole
+MountingHole_4.3mm_M4_ISO7380
+Mounting Hole 4.3mm, M4, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO7380
+0
+0
+0
+MountingHole
+MountingHole_4.3mm_M4_ISO7380_Pad
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO7380
+0
+1
+1
+MountingHole
+MountingHole_4.3mm_M4_ISO7380_Pad_TopBottom
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO7380
+0
+3
+1
+MountingHole
+MountingHole_4.3mm_M4_ISO7380_Pad_TopOnly
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO7380
+0
+2
+1
+MountingHole
+MountingHole_4.3mm_M4_ISO14580
+Mounting Hole 4.3mm, M4, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO14580
+0
+0
+0
+MountingHole
+MountingHole_4.3mm_M4_ISO14580_Pad
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO14580
+0
+1
+1
+MountingHole
+MountingHole_4.3mm_M4_ISO14580_Pad_TopBottom
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO14580
+0
+3
+1
+MountingHole
+MountingHole_4.3mm_M4_ISO14580_Pad_TopOnly
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4 ISO14580
+0
+2
+1
+MountingHole
+MountingHole_4.3mm_M4_Pad
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
+0
+1
+1
+MountingHole
+MountingHole_4.3mm_M4_Pad_TopBottom
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
+0
+3
+1
+MountingHole
+MountingHole_4.3mm_M4_Pad_TopOnly
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
+0
+2
+1
+MountingHole
+MountingHole_4.3mm_M4_Pad_Via
+Mounting Hole 4.3mm, M4, generated by kicad-footprint-generator mountinghole.py
+mountinghole M4
+0
+9
+1
+MountingHole
+MountingHole_4.3x6.2mm_M4_Pad
+Mounting Hole 4.3x6.2mm, M4
+mounting hole 4.3x6.2mm m4
+0
+1
+1
+MountingHole
+MountingHole_4.3x6.2mm_M4_Pad_Via
+Mounting Hole 4.3x6.2mm, M4
+mounting hole 4.3x6.2mm m4
+0
+17
+1
+MountingHole
+MountingHole_4.5mm
+Mounting Hole 4.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_4.5mm_Pad
+Mounting Hole 4.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_4.5mm_Pad_TopBottom
+Mounting Hole 4.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_4.5mm_Pad_TopOnly
+Mounting Hole 4.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_4.5mm_Pad_Via
+Mounting Hole 4.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_4mm
+Mounting Hole 4mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_4mm_Pad
+Mounting Hole 4mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_4mm_Pad_TopBottom
+Mounting Hole 4mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_4mm_Pad_TopOnly
+Mounting Hole 4mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_4mm_Pad_Via
+Mounting Hole 4mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_5.3mm_M5
+Mounting Hole 5.3mm, M5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
+0
+0
+0
+MountingHole
+MountingHole_5.3mm_M5_DIN965
+Mounting Hole 5.3mm, M5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 DIN965
+0
+0
+0
+MountingHole
+MountingHole_5.3mm_M5_DIN965_Pad
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 DIN965
+0
+1
+1
+MountingHole
+MountingHole_5.3mm_M5_DIN965_Pad_TopBottom
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 DIN965
+0
+3
+1
+MountingHole
+MountingHole_5.3mm_M5_DIN965_Pad_TopOnly
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 DIN965
+0
+2
+1
+MountingHole
+MountingHole_5.3mm_M5_ISO7380
+Mounting Hole 5.3mm, M5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO7380
+0
+0
+0
+MountingHole
+MountingHole_5.3mm_M5_ISO7380_Pad
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO7380
+0
+1
+1
+MountingHole
+MountingHole_5.3mm_M5_ISO7380_Pad_TopBottom
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO7380
+0
+3
+1
+MountingHole
+MountingHole_5.3mm_M5_ISO7380_Pad_TopOnly
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO7380
+0
+2
+1
+MountingHole
+MountingHole_5.3mm_M5_ISO14580
+Mounting Hole 5.3mm, M5, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO14580
+0
+0
+0
+MountingHole
+MountingHole_5.3mm_M5_ISO14580_Pad
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO14580
+0
+1
+1
+MountingHole
+MountingHole_5.3mm_M5_ISO14580_Pad_TopBottom
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO14580
+0
+3
+1
+MountingHole
+MountingHole_5.3mm_M5_ISO14580_Pad_TopOnly
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5 ISO14580
+0
+2
+1
+MountingHole
+MountingHole_5.3mm_M5_Pad
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
+0
+1
+1
+MountingHole
+MountingHole_5.3mm_M5_Pad_TopBottom
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
+0
+3
+1
+MountingHole
+MountingHole_5.3mm_M5_Pad_TopOnly
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
+0
+2
+1
+MountingHole
+MountingHole_5.3mm_M5_Pad_Via
+Mounting Hole 5.3mm, M5, generated by kicad-footprint-generator mountinghole.py
+mountinghole M5
+0
+9
+1
+MountingHole
+MountingHole_5.5mm
+Mounting Hole 5.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_5.5mm_Pad
+Mounting Hole 5.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_5.5mm_Pad_TopBottom
+Mounting Hole 5.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_5.5mm_Pad_TopOnly
+Mounting Hole 5.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_5.5mm_Pad_Via
+Mounting Hole 5.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_5mm
+Mounting Hole 5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_5mm_Pad
+Mounting Hole 5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_5mm_Pad_TopBottom
+Mounting Hole 5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_5mm_Pad_TopOnly
+Mounting Hole 5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_5mm_Pad_Via
+Mounting Hole 5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_6.4mm_M6
+Mounting Hole 6.4mm, M6, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
+0
+0
+0
+MountingHole
+MountingHole_6.4mm_M6_DIN965
+Mounting Hole 6.4mm, M6, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 DIN965
+0
+0
+0
+MountingHole
+MountingHole_6.4mm_M6_DIN965_Pad
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 DIN965
+0
+1
+1
+MountingHole
+MountingHole_6.4mm_M6_DIN965_Pad_TopBottom
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 DIN965
+0
+3
+1
+MountingHole
+MountingHole_6.4mm_M6_DIN965_Pad_TopOnly
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 DIN965
+0
+2
+1
+MountingHole
+MountingHole_6.4mm_M6_ISO7380
+Mounting Hole 6.4mm, M6, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO7380
+0
+0
+0
+MountingHole
+MountingHole_6.4mm_M6_ISO7380_Pad
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO7380
+0
+1
+1
+MountingHole
+MountingHole_6.4mm_M6_ISO7380_Pad_TopBottom
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO7380
+0
+3
+1
+MountingHole
+MountingHole_6.4mm_M6_ISO7380_Pad_TopOnly
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO7380
+0
+2
+1
+MountingHole
+MountingHole_6.4mm_M6_ISO14580
+Mounting Hole 6.4mm, M6, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO14580
+0
+0
+0
+MountingHole
+MountingHole_6.4mm_M6_ISO14580_Pad
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO14580
+0
+1
+1
+MountingHole
+MountingHole_6.4mm_M6_ISO14580_Pad_TopBottom
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO14580
+0
+3
+1
+MountingHole
+MountingHole_6.4mm_M6_ISO14580_Pad_TopOnly
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6 ISO14580
+0
+2
+1
+MountingHole
+MountingHole_6.4mm_M6_Pad
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
+0
+1
+1
+MountingHole
+MountingHole_6.4mm_M6_Pad_TopBottom
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
+0
+3
+1
+MountingHole
+MountingHole_6.4mm_M6_Pad_TopOnly
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
+0
+2
+1
+MountingHole
+MountingHole_6.4mm_M6_Pad_Via
+Mounting Hole 6.4mm, M6, generated by kicad-footprint-generator mountinghole.py
+mountinghole M6
+0
+9
+1
+MountingHole
+MountingHole_6.5mm
+Mounting Hole 6.5mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_6.5mm_Pad
+Mounting Hole 6.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_6.5mm_Pad_TopBottom
+Mounting Hole 6.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_6.5mm_Pad_TopOnly
+Mounting Hole 6.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_6.5mm_Pad_Via
+Mounting Hole 6.5mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_6mm
+Mounting Hole 6mm, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+0
+0
+MountingHole
+MountingHole_6mm_Pad
+Mounting Hole 6mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+1
+1
+MountingHole
+MountingHole_6mm_Pad_TopBottom
+Mounting Hole 6mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+3
+1
+MountingHole
+MountingHole_6mm_Pad_TopOnly
+Mounting Hole 6mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+2
+1
+MountingHole
+MountingHole_6mm_Pad_Via
+Mounting Hole 6mm, generated by kicad-footprint-generator mountinghole.py
+mountinghole
+0
+9
+1
+MountingHole
+MountingHole_8.4mm_M8
+Mounting Hole 8.4mm, M8, no annular, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
+0
+0
+0
+MountingHole
+MountingHole_8.4mm_M8_Pad
+Mounting Hole 8.4mm, M8, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
+0
+1
+1
+MountingHole
+MountingHole_8.4mm_M8_Pad_TopBottom
+Mounting Hole 8.4mm, M8, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
+0
+3
+1
+MountingHole
+MountingHole_8.4mm_M8_Pad_TopOnly
+Mounting Hole 8.4mm, M8, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
+0
+2
+1
+MountingHole
+MountingHole_8.4mm_M8_Pad_Via
+Mounting Hole 8.4mm, M8, generated by kicad-footprint-generator mountinghole.py
+mountinghole M8
+0
+9
+1
+MountingHole
+ToolingHole_1.152mm
+Tooling Hole 1.152mm, 1.3mm solder mask, JLCPCB specification, https://jlcpcb.com/help/article/How-to-add-tooling-holes-for-PCB-assembly-order
+mounting
+0
+0
+0
+TestPoint
+TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
+Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
+CONN DEV
+0
+2
+2
+TestPoint
+TestPoint_2Pads_Pitch5.08mm_Drill1.3mm
+Test point with 2 pads, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+CONN DEV
+0
+2
+2
+TestPoint
+TestPoint_Bridge_Pitch2.0mm_Drill0.7mm
+wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill0.7mm
+wire loop as test point, pitch 2.0mm, hole diameter 0.7mm, wire diameter 0.5mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill1.0mm
+wire loop as test point, pitch 2.54mm, hole diameter 1.0mm, wire diameter 0.8mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch2.54mm_Drill1.3mm
+wire loop as test point, pitch 2.54mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch3.81mm_Drill1.3mm
+wire loop as test point, pitch 3.81mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch5.08mm_Drill0.7mm
+wire loop as test point, pitch 5.08mm, hole diameter 0.7mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch5.08mm_Drill1.3mm
+wire loop as test point, pitch 5.08mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch6.35mm_Drill1.3mm
+wire loop as test point, pitch 6.35mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Bridge_Pitch7.62mm_Drill1.3mm
+wire loop as test point, pitch 7.62mm, hole diameter 1.3mm, wire diameter 1.0mm
+test point wire loop
+0
+2
+1
+TestPoint
+TestPoint_Keystone_5000-5004_Miniature
+Keystone THM Miniature Test Point 5000-5004, http://www.keyelco.com/product-pdf.cfm?p=1309
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5005-5009_Compact
+Keystone THM Compact Test Point 5005-5009, http://www.keyelco.com/product-pdf.cfm?p=1314
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5010-5014_Multipurpose
+Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319
+Through Hole Mount Test Points
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5015_Micro_Mini
+Keystone SMT Micro Mini Test Point 5015, http://www.keyelco.com/product-pdf.cfm?p=1353
+Test Point
+0
+1
+1
+TestPoint
+TestPoint_Keystone_5019_Miniature
+Keystone SMT Miniature Test Point 5019, http://www.keyelco.com/product-pdf.cfm?p=1357
+Test Point
+0
+1
+1
+TestPoint
+TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded
+wire loop with bead as test point, loop diameter 1.8mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.0mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.0mm_LowProfile
+low profile wire loop as test point, loop diameter 2.5mm, hole diameter 1.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.50mm_Drill1.85mm
+wire loop as test point, loop diameter 2.5mm, hole diameter 1.85mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded
+wire loop with bead as test point, loop diameter2.548mm, hole diameter 1.5mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill0.9mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D2.60mm_Drill1.6mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 1.6mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.50mm_Drill0.9mm_Beaded
+wire loop with bead as test point, loop diameter2.6mm, hole diameter 0.9mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded
+wire loop with bead as test point, loop diameter 3.5mm, hole diameter 1.4mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.0mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.0mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.5mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.5mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Loop_D3.80mm_Drill2.8mm
+wire loop as test point, loop diameter 3.8mm, hole diameter 2.8mm
+test point wire loop bead
+0
+1
+1
+TestPoint
+TestPoint_Pad_1.0x1.0mm
+SMD rectangular pad as test Point, square 1.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_1.5x1.5mm
+SMD rectangular pad as test Point, square 1.5mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_2.0x2.0mm
+SMD rectangular pad as test Point, square 2.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_2.5x2.5mm
+SMD rectangular pad as test Point, square 2.5mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_3.0x3.0mm
+SMD rectangular pad as test Point, square 3.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_4.0x4.0mm
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_Pad_D1.0mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D1.5mm
+SMD pad as test Point, diameter 1.5mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D2.0mm
+SMD pad as test Point, diameter 2.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D2.5mm
+SMD pad as test Point, diameter 2.5mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D3.0mm
+SMD pad as test Point, diameter 3.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Pad_D4.0mm
+SMD pad as test Point, diameter 4.0mm
+test point SMD pad
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D2.0mm
+Plated Hole as test Point, diameter 2.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D3.0mm
+Plated Hole as test Point, diameter 3.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D4.0mm
+Plated Hole as test Point, diameter 4.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_Plated_Hole_D5.0mm
+Plated Hole as test Point, diameter 5.0mm
+test point plated hole
+0
+1
+1
+TestPoint
+TestPoint_THTPad_1.0x1.0mm_Drill0.5mm
+THT rectangular pad as test Point, square 1.0mm side length, hole diameter 0.5mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_1.5x1.5mm_Drill0.7mm
+THT rectangular pad as test Point, square 1.5mm side length, hole diameter 0.7mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_2.0x2.0mm_Drill1.0mm
+THT rectangular pad as test Point, square 2.0mm_Drill1.0mm  side length, hole diameter 1.0mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_2.5x2.5mm_Drill1.2mm
+THT rectangular pad as test Point, square 2.5mm side length, hole diameter 1.2mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_3.0x3.0mm_Drill1.5mm
+THT rectangular pad as test Point, square 3.0mm side length, hole diameter 1.5mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_4.0x4.0mm_Drill2.0mm
+THT rectangular pad as test Point, square 4.0mm  side length, hole diameter 2.0mm
+test point THT pad rectangle square
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D1.0mm_Drill0.5mm
+THT pad as test Point, diameter 1.0mm, hole diameter 0.5mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D1.5mm_Drill0.7mm
+THT pad as test Point, diameter 1.5mm, hole diameter 0.7mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D2.0mm_Drill1.0mm
+THT pad as test Point, diameter 2.0mm, hole diameter 1.0mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D2.5mm_Drill1.2mm
+THT pad as test Point, diameter 2.5mm, hole diameter 1.2mm 
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D3.0mm_Drill1.5mm
+THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm
+test point THT pad
+0
+1
+1
+TestPoint
+TestPoint_THTPad_D4.0mm_Drill2.0mm
+THT pad as test Point, diameter 4.0mm, hole diameter 2.0mm
+test point THT pad
+0
+1
+1
+footprints
+ABS-SMD_L5.0-W4.4-P4.00-LS7.0-BL
+ABS-SMD_L5.0-W4.4-P4.00-LS7.0-BL footprint
+ABS-SMD_L5.0-W4.4-P4.00-LS7.0-BL footprint C882375
+0
+4
+4
+footprints
+C0402
+C0402 footprint
+C0402 footprint C1530
+0
+2
+2
+footprints
+C0603
+C0603 footprint
+C0603 footprint C19666
+0
+2
+2
+footprints
+C0805
+C0805 footprint
+C0805 footprint C49678
+0
+2
+2
+footprints
+CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD
+CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD footprint
+CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD footprint C487461
+0
+2
+2
+footprints
+CAP-TH_BD5.0-P2.00-D0.8-FD
+CAP-TH_BD5.0-P2.00-D0.8-FD footprint
+CAP-TH_BD5.0-P2.00-D0.8-FD footprint C89792
+0
+2
+2
+footprints
+CAP-TH_BD6.3-P2.50-D1.0-FD
+CAP-TH_BD6.3-P2.50-D1.0-FD footprint
+CAP-TH_BD6.3-P2.50-D1.0-FD footprint C2029
+0
+2
+2
+footprints
+CAP-TH_BD10.0-P5.00-D1.0-FD
+CAP-TH_BD10.0-P5.00-D1.0-FD footprint
+CAP-TH_BD10.0-P5.00-D1.0-FD footprint C45081
+0
+2
+2
+footprints
+CAP-TH_BD12.5-P5.00-D0.6-FD
+CAP-TH_BD12.5-P5.00-D0.6-FD footprint
+CAP-TH_BD12.5-P5.00-D0.6-FD footprint C443401
+0
+2
+2
+footprints
+CAP-TH_BD16.0-P7.50-D1.2-FD
+CAP-TH_BD16.0-P7.50-D1.2-FD footprint
+CAP-TH_BD16.0-P7.50-D1.2-FD footprint C10737
+0
+2
+2
+footprints
+COMM-SMD_ESP32-ZERO
+COMM-SMD_RP2040-ZERO footprint
+COMM-SMD_RP2040-ZERO footprint C5350143
+0
+18
+18
+footprints
+DO-41_BD2.4-L4.7-P8.70-D0.9-RD
+DO-41_BD2.4-L4.7-P8.70-D0.9-RD footprint
+DO-41_BD2.4-L4.7-P8.70-D0.9-RD footprint C960666
+0
+2
+2
+footprints
+FUSE-SMD_L22.7-W10.0
+FUSE-SMD_L22.7-W10.0 footprint
+FUSE-SMD_L22.7-W10.0 footprint C41371867
+0
+2
+2
+footprints
+FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G
+FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G footprint
+FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G footprint C3204125
+0
+2
+2
+footprints
+HALL-SENSOR_5P-P2.54-H13.5
+Hall Sensor footprint with 3x signal pads (0.5mm) and 2x mounting holes (0.9mm)
+Hall Sensor Current Sensor 5-pin
+0
+5
+5
+footprints
+HEATSINK-TH_XSD366-094
+HEATSINK-TH_XSD366-094 footprint
+HEATSINK-TH_XSD366-094 footprint C286227
+0
+2
+2
+footprints
+MBS_L4.7-W4.0-P2.50-LS7.0-BL
+MBS_L4.7-W4.0-P2.50-LS7.0-BL footprint
+MBS_L4.7-W4.0-P2.50-LS7.0-BL footprint C475740
+0
+4
+4
+footprints
+MICRO-USB-SMD_5P-P0.65-H-F_C10418
+MICRO-USB-SMD_5P-P0.65-H-F_C10418 footprint
+MICRO-USB-SMD_5P-P0.65-H-F_C10418 footprint C10418
+0
+9
+9
+footprints
+PWRM-TH_IRM-03-5-DIP5
+PWRM-TH_IRM-03-5-DIP5 footprint
+PWRM-TH_IRM-03-5-DIP5 footprint C6969425
+0
+5
+5
+footprints
+RELAY-TH_G5V-1
+RELAY-TH_G5V-1 footprint
+RELAY-TH_G5V-1 footprint C31113
+0
+6
+6
+footprints
+RES-ADJ-SMD_3314G-1-103E
+RES-ADJ-SMD_3314G-1-103E footprint
+RES-ADJ-SMD_3314G-1-103E footprint C719184
+0
+3
+3
+footprints
+RES-TH_BD2.4-L6.3-P10.30-D0.6
+RES-TH_BD2.4-L6.3-P10.30-D0.6 footprint
+RES-TH_BD2.4-L6.3-P10.30-D0.6 footprint C1370569
+0
+2
+2
+footprints
+RES-TH_BD2.7-L6.2-P10.20-D0.4
+RES-TH_BD2.7-L6.2-P10.20-D0.4 footprint
+RES-TH_BD2.7-L6.2-P10.20-D0.4 footprint C2903254
+0
+2
+2
+footprints
+RES-TH_BD3.0-L9.5-P13.50-D0.6
+RES-TH_BD3.0-L9.5-P13.50-D0.6 footprint
+RES-TH_BD3.0-L9.5-P13.50-D0.6 footprint C70845
+0
+2
+2
+footprints
+RES-TH_BD3.5-L9.0-P13.00-D0.5
+RES-TH_BD3.5-L9.0-P13.00-D0.5 footprint
+RES-TH_BD3.5-L9.0-P13.00-D0.5 footprint C2894491
+0
+2
+2
+footprints
+RES-TH_BD4.0-L10.5-P14.50-D0.6
+RES-TH_BD4.0-L10.5-P14.50-D0.6 footprint
+RES-TH_BD4.0-L10.5-P14.50-D0.6 footprint C167619
+0
+2
+2
+footprints
+RES-TH_BD4.0-L11.5-P15.50-D0.7
+RES-TH_BD4.0-L11.5-P15.50-D0.7 footprint
+RES-TH_BD4.0-L11.5-P15.50-D0.7 footprint C120647
+0
+2
+2
+footprints
+RES-TH_BD4.5-L11.0-P15.00-D0.7
+RES-TH_BD4.5-L11.0-P15.00-D0.7 footprint
+RES-TH_BD4.5-L11.0-P15.00-D0.7 footprint C2897121
+0
+2
+2
+footprints
+RES-TH_BD5.0-L15.5-P19.50-D0.7
+RES-TH_BD5.0-L15.5-P19.50-D0.7 footprint
+RES-TH_BD5.0-L15.5-P19.50-D0.7 footprint C2903458
+0
+2
+2
+footprints
+RES-TH_BD5.5-L15.0-P19.00-D0.8
+RES-TH_BD5.5-L15.0-P19.00-D0.8 footprint
+RES-TH_BD5.5-L15.0-P19.00-D0.8 footprint C120810
+0
+2
+2
+footprints
+RES-TH_BD6.0-L17.5-P21.50-D0.8
+RES-TH_BD6.0-L17.5-P21.50-D0.8 footprint
+RES-TH_BD6.0-L17.5-P21.50-D0.8 footprint C121969
+0
+2
+2
+footprints
+RES-TH_BD9.5-L22.0-P26.00-D0.7
+RES-TH_BD9.5-L22.0-P26.00-D0.7 footprint
+RES-TH_BD9.5-L22.0-P26.00-D0.7 footprint C334294
+0
+2
+2
+footprints
+SMD-4_L4.6-W6.4-P2.54-LS10.0-BR
+SMD-4_L4.6-W6.4-P2.54-LS10.0-BR footprint
+SMD-4_L4.6-W6.4-P2.54-LS10.0-BR footprint C136448
+0
+4
+4
+footprints
+SMD_BD4.2-L4.7-W4.7-D3.0
+SMD_BD4.2-L4.7-W4.7-D3.0 footprint
+SMD_BD4.2-L4.7-W4.7-D3.0 footprint C87703
+0
+4
+1
+footprints
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint
+SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL footprint C5947
+0
+16
+16
+footprints
+SW-TH_MT-0-102-C004-N004-RS
+SW-TH_MT-0-102-C004-N004-RS footprint
+SW-TH_MT-0-102-C004-N004-RS footprint C22448931
+0
+5
+5
+footprints
+SW-TH_ST-0-102-C03-N003-RS
+SW-TH_ST-0-102-C03-N003-RS footprint
+SW-TH_ST-0-102-C03-N003-RS footprint C1788489
+0
+5
+5
+footprints
+TO-220-3_L10.0-W4.5-P2.54-L
+TO-220-3_L10.0-W4.5-P2.54-L footprint
+TO-220-3_L10.0-W4.5-P2.54-L footprint C2914
+0
+3
+3
+footprints
+TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL
+TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL footprint
+TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL footprint C13456
+0
+3
+3

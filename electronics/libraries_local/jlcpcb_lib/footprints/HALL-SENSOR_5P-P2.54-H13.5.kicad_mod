@@ -1,0 +1,202 @@
+(footprint "HALL-SENSOR_5P-P2.54-H13.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Hall Sensor footprint with 3x signal pads (0.5mm) and 2x mounting holes (0.9mm)")
+	(tags "Hall Sensor Current Sensor 5-pin")
+	(property "Reference" "U**"
+		(at 0 -15.5 0)
+		(layer "F.SilkS")
+		(uuid "a1b2c3d4-e5f6-7890-abcd-ef1234567890")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "HALL-SENSOR_5P-P2.54-H13.5"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "b2c3d4e5-f6a7-8901-bcde-f12345678901")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3d4e5f6-a7b8-9012-cdef-123456789012")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Hall Current Sensor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4e5f6a7-b8c9-0123-def1-234567890123")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.3 -21.5)
+		(end 5.3 1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4762b022-75ec-4f2c-a6b0-1f7f8718e7c3")
+	)
+	(fp_circle
+		(center -2.54 0)
+		(end -2.04 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c9d0e1f2-a3b4-5678-3456-789012345678")
+	)
+	(fp_line
+		(start -7.2 -21.5)
+		(end -7.2 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d0e1f2a3-b4c5-6789-4567-890123456789")
+	)
+	(fp_line
+		(start -7.2 1.5)
+		(end 7.2 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1f2a3b4-c5d6-7890-5678-901234567890")
+	)
+	(fp_line
+		(start 7.2 -21.5)
+		(end -7.2 -21.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a3b4c5d6-e7f8-9012-7890-123456789012")
+	)
+	(fp_line
+		(start 7.2 1.5)
+		(end 7.2 -21.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f2a3b4c5-d6e7-8901-6789-012345678901")
+	)
+	(fp_rect
+		(start -5.3 -21.45)
+		(end 5.3 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "b4c5d6e7-f8a9-0123-8901-234567890123")
+	)
+	(fp_circle
+		(center -2.54 0)
+		(end -2.29 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c5d6e7f8-a9b0-1234-9012-345678901234")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -6.5 0)
+		(layer "F.Fab")
+		(uuid "d6e7f8a9-b0c1-2345-0123-456789012345")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.2 1.2)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e7f8a9b0-c1d2-3456-1234-567890123456")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.2 1.2)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8a9b0c1-d2e3-4567-2345-678901234567")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.2 1.2)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9b0c1d2-e3f4-5678-3456-789012345678")
+	)
+	(pad "4" thru_hole circle
+		(at -6.35 -10.1)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0c1d2e3-f4a5-6789-4567-890123456789")
+	)
+	(pad "5" thru_hole circle
+		(at 6.35 -10.1)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c1d2e3f4-a5b6-7890-5678-901234567890")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

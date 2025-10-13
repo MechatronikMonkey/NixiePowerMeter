@@ -1,0 +1,7998 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "0402B221K500NT"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF 50V X7R"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:C0402"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/15869.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1530"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C1530"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "0402B221K500NT_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.032) (xy -0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.032) (xy 0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "0402B221K500NT_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "10uf/100V"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uf{slash}100V"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD6.3-P2.50-D1.0-FD"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/44807.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2029"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2029"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "10uf/100V_0_1"
+			(rectangle
+				(start -2.54 1.524)
+				(end -1.524 1.4986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.032 2.032)
+				(end -2.0066 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -1.27)
+				(mid 0 -0.2179)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "10uf/100V_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.826)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "16A_500V_20_5_FuseHolder_THT"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16A 20mm 500V 5mm Plugin Fuse"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cn.bing.com/search?q=datasheet: 0031.8201.G"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3204125"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C3204125"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "16A_500V_20_5_FuseHolder_THT_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -3.81 1.27)
+				(end 4.064 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 0 0)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 0 180)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "18uF_450V"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "18uF 450V ±20%"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD10.0-P5.00-D1.0-FD"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C781269"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C781269"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "18uF_450V_0_1"
+			(rectangle
+				(start -2.54 1.524)
+				(end -1.524 1.4986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.032 2.032)
+				(end -2.0066 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -1.27)
+				(mid 0 -0.2179)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "18uF_450V_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.826)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "22uF_450V_16*20"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22uF_450V_16*20"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD16.0-P7.50-D1.2-FD"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/48887.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C10737"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C10737"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "22uF_450V_16*20_0_1"
+			(rectangle
+				(start -2.54 1.524)
+				(end -1.524 1.4986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.032 2.032)
+				(end -2.0066 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -1.27)
+				(mid 0 -0.2179)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "22uF_450V_16*20_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.826)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "3314G-1-503E"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3314G-1-503E"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-ADJ-SMD_3314G-1-103E"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/832187.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C719184"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C719184"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "3314G-1-503E_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -2.032 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 1.016) (xy -1.524 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 -1.016) (xy -0.762 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.762 1.016) (xy -0.254 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.54) (xy 0 1.524) (xy 0.508 2.54) (xy -0.508 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 -1.016) (xy 0.254 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.54) (xy 0 1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 1.016) (xy 1.016 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 -1.016) (xy 1.524 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.524 1.016) (xy 2.286 -1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -1.016) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.794 0.762)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "74HC595D,118"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC595D,118"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SOIC-16_L9.9-W3.9-P1.27-LS6.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheet.octopart.com/MC14076BDR2G-ON-Semiconductor-datasheet-608107.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5947"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C5947"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "74HC595D,118_0_1"
+			(rectangle
+				(start -7.62 11.43)
+				(end 7.62 -11.43)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -6.35 10.16)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 8.89 0)
+				(length 2.54)
+				(name "Q1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 6.35 0)
+				(length 2.54)
+				(name "Q2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "Q3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "Q4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "Q5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "Q6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -6.35 0)
+				(length 2.54)
+				(name "Q7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -8.89 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 8.89 180)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 6.35 180)
+				(length 2.54)
+				(name "Q0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 3.81 180)
+				(length 2.54)
+				(name "DS"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "OE#"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "STCP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "SHCP"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -6.35 180)
+				(length 2.54)
+				(name "MR#"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -8.89 180)
+				(length 2.54)
+				(name "Q7S"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "AB24S"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AB24S"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:ABS-SMD_L5.0-W4.4-P4.00-LS7.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20211116/1CFCA0CE490D28CCD798815519BDD3FD.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C882375"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C882375"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "AB24S_0_1"
+			(rectangle
+				(start -6.35 3.81)
+				(end 6.35 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -5.08 2.54)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -8.89 1.27 0)
+				(length 2.54)
+				(name "AC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -1.27 0)
+				(length 2.54)
+				(name "AC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 1.27 180)
+				(length 2.54)
+				(name "DC+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -1.27 180)
+				(length 2.54)
+				(name "DC-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CC0805KRX7R9BB104"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF 50V X7R"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:C0805"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/373011.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C49678"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CC0805KRX7R9BB104_0_1"
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -2.032) (xy -0.508 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.032) (xy 0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "CC0805KRX7R9BB104_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CF2WS-82KΩ±5%_T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CF2WS-82KΩ±5%_T"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD4.0-L11.5-P15.50-D0.7"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/59784.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C120647"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C120647"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CF2WS-82KΩ±5%_T_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CF3WS-10KΩ±5%_T"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CF3WS-10KΩ±5%_T"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD5.5-L15.0-P19.00-D0.8"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/325372.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C120810"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C120810"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CF3WS-10KΩ±5%_T_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CFR-25JT-52-1K5"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CFR-25JT-52-1K5"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.4-L6.3-P10.30-D0.6"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/184395.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1370569"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C1370569"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CFR-25JT-52-1K5_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CFR-25JT-52-1M"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CFR-25JT-52-1M"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.4-L6.3-P10.30-D0.6"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/184395.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1370556"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C1370556"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CFR-25JT-52-1M_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CFR02SJ0333A10"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k 500mW"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD3.0-L9.5-P13.50-D0.6"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/59631.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C70845"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C70845"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CFR02SJ0333A10_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CFR02SJ0471A10"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CFR02SJ0471A10"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD5.0-L15.5-P19.50-D0.7"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/73002.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2905226"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2905226"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CFR02SJ0471A10_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CL05B104KO5NNNC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CL05B104KO5NNNC"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:C0402"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/15869.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C1525"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CL05B104KO5NNNC_0_1"
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -2.032) (xy -0.508 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.032) (xy 0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CL10A475KO8NNNC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CL10A475KO8NNNC"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:C0603"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/362304.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19666"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C19666"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CL10A475KO8NNNC_0_1"
+			(polyline
+				(pts
+					(xy -0.508 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 -2.032) (xy -0.508 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.032) (xy 0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CL10B104KA8NNNC"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CL10B104KA8NNNC"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:C0603"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/362304.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1590"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C1590"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CL10B104KA8NNNC_0_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.032) (xy -0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.032) (xy 0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR-L5W-1KΩJ"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR-L5W-1KΩJ"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD9.5-L22.0-P26.00-D0.7"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/312791.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C334294"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C334294"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR-L5W-1KΩJ_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR1/2W-220K±5%-XT52"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1{slash}2W-220K±5%-XT52"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD3.5-L9.0-P13.00-D0.5"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200609/C601736_823D5FEC32C33ED68EDB1181C52D1F38.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2894491"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2894491"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR1/2W-220K±5%-XT52_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR1/2WS-470K±5%-ST52"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1{slash}2WS-470K±5%-ST52"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/486756.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2857409"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2857409"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR1/2WS-470K±5%-ST52_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR1/4W-15K±5%-OT52"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1{slash}4W-15K±5%-OT52"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/486756.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2894565"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2894565"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR1/4W-15K±5%-OT52_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR1/4W-2K7±5%-ST26"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1{slash}4W-2K7±5%-ST26"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/486756.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2894624"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2894624"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR1/4W-2K7±5%-ST26_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR1/4W-47K±5%-ST52"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1{slash}4W-47K±5%-ST52"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/486756.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2896823"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2896823"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR1/4W-47K±5%-ST52_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR1W-100K±5%-TT63"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1W-100K±5%-TT63"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD4.5-L11.0-P15.00-D0.7"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/325357.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C601829"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C601829"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR1W-100K±5%-TT63_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR1W-10M±5%-6T63"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1W-10M±5%-6T63"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD4.5-L11.0-P15.00-D0.7"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/325357.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2897121"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2897121"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR1W-10M±5%-6T63_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR2W-4K7±5%-9T73"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR2W-4K7±5%-9T73"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD5.0-L15.5-P19.50-D0.7"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/73002.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2903451"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2903451"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR2W-4K7±5%-9T73_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "CR2W-68K±5%-9T73"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR2W-68K±5%-9T73"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD5.0-L15.5-P19.50-D0.7"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/73002.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2903458"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2903458"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "CR2W-68K±5%-9T73_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ESP32-ZERO"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ESP32-ZERO"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:COMM-SMD_ESP32-ZERO"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.waveshare.net/wiki/%E6%96%87%E4%BB%B6:RP2040-Zero-3.jpg"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5350143"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C5350143"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ESP32-ZERO_0_1"
+			(rectangle
+				(start -12.7 17.78)
+				(end 11.43 -9.398)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 13.97 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 11.43 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 8.89 0)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 6.35 0)
+				(length 2.54)
+				(name "GP1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(symbol "ESP32-ZERO_1_1"
+			(pin unspecified line
+				(at -15.24 3.81 0)
+				(length 2.54)
+				(name "GP2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 1.27 0)
+				(length 2.54)
+				(name "GP3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -1.27 0)
+				(length 2.54)
+				(name "GP4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -3.81 0)
+				(length 2.54)
+				(name "GP5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -15.24 -6.35 0)
+				(length 2.54)
+				(name "GP6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 13.97 180)
+				(length 2.54)
+				(name "USART0TX"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 11.43 180)
+				(length 2.54)
+				(name "USART0RX"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 8.89 180)
+				(length 2.54)
+				(name "GP13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 6.35 180)
+				(length 2.54)
+				(name "GP12"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 3.81 180)
+				(length 2.54)
+				(name "GP11"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 1.27 180)
+				(length 2.54)
+				(name "GP10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -1.27 180)
+				(length 2.54)
+				(name "GP9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -3.81 180)
+				(length 2.54)
+				(name "GP8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 13.97 -6.35 180)
+				(length 2.54)
+				(name "GP7"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "G5V-1-12V"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "RELAY"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "G5V-1-12V"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RELAY-TH_G5V-1"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/31969.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C31113"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C31113"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "G5V-1-12V_0_1"
+			(rectangle
+				(start -11.43 5.08)
+				(end 11.43 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -11.43 4.064)
+				(end -10.414 -4.064)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.858 2.54) (xy -5.334 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 5.08) (xy -6.35 2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.35 -5.08) (xy -6.35 -0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 1.016) (xy -5.334 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 3.048) (xy -3.81 3.048) (xy -3.81 1.016)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 5.08) (xy -1.27 1.016) (xy -2.286 1.016) (xy -2.286 0.508) (xy -1.27 0.508)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 1.016) (xy -0.254 1.016) (xy -0.254 0.508) (xy -1.27 0.508) (xy -1.27 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.254 3.048) (xy 6.35 3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 5.08) (xy 6.35 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -6.35 10.16 270)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -10.16 90)
+				(length 5.08)
+				(name "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 10.16 270)
+				(length 5.08)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -1.27 -10.16 90)
+				(length 5.08)
+				(name "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 10.16 270)
+				(length 5.08)
+				(name "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 6.35 -10.16 90)
+				(length 5.08)
+				(name "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "IRM-03-5"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRM-03-5"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:PWRM-TH_IRM-03-5-DIP5"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://img.jlc.com//pdf/applyPasteComponent/2021-08-25/593669C/380b9d7de5054cdd8de3ffb155c09dfc/IRM-03-SPEC-CN.PDF"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6969425"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C6969425"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "IRM-03-5_0_1"
+			(rectangle
+				(start -7.62 3.81)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -6.35 2.54)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 1.27 0)
+				(length 2.54)
+				(name "AC/L"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "AC/N"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 1.27 180)
+				(length 2.54)
+				(name "+VO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "-VO"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "KAQY214ATLD"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KAQY214ATLD"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SMD-4_L4.6-W6.4-P2.54-LS10.0-BR"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/253373.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136448"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C136448"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "KAQY214ATLD_0_1"
+			(rectangle
+				(start -8.89 9.398)
+				(end 1.27 2.286)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -8.89 7.62) (xy -6.35 7.62) (xy -6.35 3.81) (xy -8.89 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.112 6.604) (xy -5.588 6.604) (xy -6.35 5.334) (xy -7.112 6.604)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.112 5.334) (xy -5.588 5.334)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 6.35) (xy -2.794 6.35) (xy -3.556 6.604)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 5.334) (xy -2.794 5.334) (xy -3.556 5.588)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.794 6.35) (xy -3.556 6.096)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.794 5.334) (xy -3.556 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.032 5.588) (xy -2.54 7.366)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 3.81) (xy -2.032 3.81) (xy -2.032 5.588)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 7.62) (xy -1.778 7.62) (xy -1.778 7.112)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 7.62 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 3.81 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 7.62 180)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 3.81 3.81 180)
+				(length 2.54)
+				(name "S1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "KM330M050C110A"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33uF 50V"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD5.0-P2.00-D0.8-FD"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/44805.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C89792"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C89792"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "KM330M050C110A_0_1"
+			(rectangle
+				(start -2.54 1.524)
+				(end -1.524 1.4986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.032 2.032)
+				(end -2.0066 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -1.27)
+				(mid 0 -0.2179)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "KM330M050C110A_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.826)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "L7812CD2T-TR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L7812CD2T-TR"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:TO-263-2_L10.0-W9.1-P5.08-LS15.2-TL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/233157.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13456"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C13456"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "L7812CD2T-TR_0_1"
+			(rectangle
+				(start -7.62 6.35)
+				(end 7.62 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin power_in line
+				(at -12.7 3.81 0)
+				(length 5.08)
+				(name "IN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -6.35 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 12.7 3.81 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "L7812CV-DG"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L7812CV-DG"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:TO-220-3_L10.0-W4.5-P2.54-L"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/233115.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2914"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2914"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "L7812CV-DG_0_1"
+			(rectangle
+				(start -2.54 5.08)
+				(end 7.62 -5.08)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 5.08)
+				(name "OUTPUT"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 0 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 5.08)
+				(name "passive"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LKMI2501C682MF"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LKMI2501C682MF"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD16.0-P7.50-D1.2-FD"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/48887.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C442803"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C442803"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LKMI2501C682MF_0_1"
+			(rectangle
+				(start -2.54 1.524)
+				(end -1.524 1.4986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.032 2.032)
+				(end -2.0066 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -1.27)
+				(mid 0 -0.2179)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LKMI2501C682MF_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.826)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "LKML2502H330MF"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33uF 500V 5R5-ESR"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD12.5-P5.00-D0.6-FD"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171212/C160628_15130639756271177994.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C443401"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C443401"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "LKML2502H330MF_0_1"
+			(rectangle
+				(start -2.54 1.524)
+				(end -1.524 1.4986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.032 2.032)
+				(end -2.0066 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -1.27)
+				(mid 0 -0.2179)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "LKML2502H330MF_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.826)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MB26S_C475740"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MB26S_C475740"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:MBS_L4.7-W4.0-P2.50-LS7.0-BL"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/335287.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C475740"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C475740"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MB26S_C475740_0_1"
+			(rectangle
+				(start -3.81 3.81)
+				(end 3.81 -3.81)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -6.35 1.27 0)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -1.27 0)
+				(length 2.54)
+				(name "-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 1.27 180)
+				(length 2.54)
+				(name "AC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -1.27 180)
+				(length 2.54)
+				(name "AC"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MF1/4W-1Ω±1%-ST26"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MF1{slash}4W-1Ω±1%-ST26"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/486756.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2903254"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C2903254"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MF1/4W-1Ω±1%-ST26_0_1"
+			(rectangle
+				(start -2.54 1.27)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MOF5WS-47Ω±5%"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MOF5WS-47Ω±5%"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD6.0-L17.5-P21.50-D0.8"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/334985.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C121969"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C121969"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MOF5WS-47Ω±5%_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MT-0-103-C004-N004-RS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MT-0-103-C004-N004-RS"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW-TH_MT-0-102-C004-N004-RS"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/1879287.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22448931"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C22448931"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "MT-0-103-C004-N004-RS_0_1"
+			(circle
+				(center -2.54 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy 2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 -5.08 180)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "QNHC3"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "QNHC3"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:HALL-SENSOR_5P-P2.54-H13.5"
+			(at 0 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Hall Current Sensor, Output 2.5±2V, Input ±6A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "hall sensor current"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "QNHC3_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "HALL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "QNHC3_1_1"
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RD50T5821J"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RD50T5821J"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD4.0-L10.5-P14.50-D0.6"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/179006.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C167619"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C167619"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "RD50T5821J_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "ST-0-102-C03-N003-RS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ST-0-102-C03-N003-RS"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SW-TH_ST-0-102-C03-N003-RS"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/1879280.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1788489"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C1788489"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ST-0-102-C03-N003-RS_0_1"
+			(circle
+				(center -2.54 0)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -5.08) (xy 2.54 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center 2.54 -2.54)
+				(radius 0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -5.08 0)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 2.54 180)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 5.08 -2.54 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 -5.08 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "UF4007_C960666"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF4007_C960666"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/85412.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C960666"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C960666"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "UF4007_C960666_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.778) (xy -1.27 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "VKME1002C220MV"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VKME1002C220MV"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:CAP-SMD_BD10.0-L10.3-W10.3-LS11.7-FD"
+			(at -0.508 -0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200220/C487365_CBD0F9C143D6988F0F1834932849078A.pdf"
+			(at -36.576 -0.508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C487461"
+			(at -9.398 -0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C487461"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "VKME1002C220MV_0_1"
+			(rectangle
+				(start -2.54 1.524)
+				(end -1.524 1.4986)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0.762) (xy 2.54 0.762)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -2.032 2.032)
+				(end -2.0066 1.016)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(arc
+				(start -2.54 -1.27)
+				(mid 0 -0.2179)
+				(end 2.54 -1.27)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "VKME1002C220MV_1_1"
+			(pin passive line
+				(at 0 5.08 270)
+				(length 4.318)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 4.826)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XF-656VS"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XF-656VS"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSE-SMD_L22.7-W10.0"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20240828/AEB445000C4B924700750D6F35EDB9DD.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C41371867"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C41371867"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XF-656VS_0_1"
+			(rectangle
+				(start -3.302 0.762)
+				(end 3.302 -0.762)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XSD366-094"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XSD366-094"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:HEATSINK-TH_XSD366-094"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180927/C286227_8CAF4AF643AF3F6953ADE6744A76F022.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C286227"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C286227"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XSD366-094_0_1"
+			(rectangle
+				(start -2.54 2.54)
+				(end 2.54 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -1.27 1.27)
+				(radius 0.381)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "XSD366-094_1_1"
+			(pin free line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin free line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "micro_USBFemale"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "USB"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "micro_USBFemale"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:MICRO-USB-SMD_5P-P0.65-H-F_C10418"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/10961.html"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C10418"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C10418"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "micro_USBFemale_0_1"
+			(rectangle
+				(start -2.54 6.35)
+				(end 3.81 -6.35)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -8.89 90)
+				(length 2.54)
+				(name "MTN"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "SH0"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 5.08 180)
+				(length 5.08)
+				(name "V+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 2.54 180)
+				(length 5.08)
+				(name "D-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 0 180)
+				(length 5.08)
+				(name "D+"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -2.54 180)
+				(length 5.08)
+				(name "ID"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 8.89 -5.08 180)
+				(length 5.08)
+				(name "V-"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "铜柱M3*5+6"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "铜柱M3*5+6"
+			(at 0 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:SMD_BD4.2-L4.7-W4.7-D3.0"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180629/C87703_D0202CF0C285C70F41F1E6F27424EC8C.pdf"
+			(at -2.286 0.127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C87703"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "C87703"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "铜柱M3*5+6_0_1"
+			(circle
+				(center 0 0)
+				(radius 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 0 180)
+				(length 5.08)
+				(name "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)

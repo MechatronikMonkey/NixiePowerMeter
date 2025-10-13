@@ -1,0 +1,763 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f16fe4fe-e0aa-4cad-b5bd-e663c21ca2d4")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 54.61 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41cdff24-79cb-4a23-aa1d-0c625f9a6dc2")
+		(property "Reference" "RV1"
+			(at 52.07 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Presence"
+			(at 52.07 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 54.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99a9c91e-d5ff-4c59-b305-082abca0ac59")
+		)
+		(pin "3"
+			(uuid "652d8887-1bb6-44b5-a676-cdcb3d238b44")
+		)
+		(pin "2"
+			(uuid "705ae09e-ac9b-4616-96ec-aed4546aa53b")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/fb2444d2-b86f-4030-b036-b8cf56e0db72"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+			(project ""
+				(path "/f16fe4fe-e0aa-4cad-b5bd-e663c21ca2d4"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 76.2 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d54345-fa50-4b7f-b3ae-801e60614638")
+		(property "Reference" "RV2"
+			(at 73.66 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Bass"
+			(at 73.66 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 76.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4b5cbe9-8f38-4f89-861a-78a9115ab6b3")
+		)
+		(pin "3"
+			(uuid "0d757e95-df14-4d77-a0b3-d55136a56dd7")
+		)
+		(pin "2"
+			(uuid "ee79cd3f-9279-435b-b0af-fe2061f530ee")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/fb2444d2-b86f-4030-b036-b8cf56e0db72"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 96.52 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51970dc5-c25f-4dd5-b116-f9efe509f185")
+		(property "Reference" "RV3"
+			(at 93.98 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Mid"
+			(at 93.98 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 96.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a968438d-56f9-492d-a357-88ec4fc4d622")
+		)
+		(pin "3"
+			(uuid "06878ba0-c223-4e77-b4e4-cf1eaac8acd5")
+		)
+		(pin "2"
+			(uuid "534b26bb-7ac1-4543-8e9f-370c627cddb6")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/fb2444d2-b86f-4030-b036-b8cf56e0db72"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 181.61 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a826a82-df49-4939-ad74-397cd99c83a7")
+		(property "Reference" "RV7"
+			(at 179.07 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Gain1"
+			(at 179.07 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3effbbbb-065c-4643-9342-64c20105a91d")
+		)
+		(pin "3"
+			(uuid "1c9bf31c-91f0-4023-a89d-945c3c7d751b")
+		)
+		(pin "2"
+			(uuid "f4e40b04-8f2f-4e64-8bfe-592cf4b35912")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/fb2444d2-b86f-4030-b036-b8cf56e0db72"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 161.29 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ac411b5-1f44-4006-9bad-a7f5fd692b0c")
+		(property "Reference" "RV6"
+			(at 158.75 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Vol2"
+			(at 158.75 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 161.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 161.29 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdbcf6a8-d184-4e9f-aa54-296fd6fe467f")
+		)
+		(pin "3"
+			(uuid "fc6b2eb6-3683-434a-a55d-9d95a334e8a4")
+		)
+		(pin "2"
+			(uuid "3e5f58d6-6889-41bd-a410-2da796ffce06")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/fb2444d2-b86f-4030-b036-b8cf56e0db72"
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 204.47 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94779b8a-2e60-4f24-a422-b4f3823db369")
+		(property "Reference" "RV8"
+			(at 201.93 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Gain2"
+			(at 201.93 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 204.47 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d914f7a1-4ce9-44b1-ad24-3500195d7ddf")
+		)
+		(pin "3"
+			(uuid "14dabaef-92f1-4f23-8fd3-e4bc177db545")
+		)
+		(pin "2"
+			(uuid "f3d085c0-960b-407d-bcd3-4e6420d6d501")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/fb2444d2-b86f-4030-b036-b8cf56e0db72"
+					(reference "RV8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 118.11 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9121170-4733-41ce-9221-007232794e47")
+		(property "Reference" "RV4"
+			(at 115.57 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Treble"
+			(at 115.57 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d507d6-87e1-4a73-aacb-8e989325097a")
+		)
+		(pin "3"
+			(uuid "7cbafb31-42e4-4ec2-a9fb-1e327f2d6617")
+		)
+		(pin "2"
+			(uuid "5a067903-5010-45a1-a819-5a35ebdf49ec")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/fb2444d2-b86f-4030-b036-b8cf56e0db72"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 139.7 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e762f3f1-a6fd-4f58-a0d0-3bf2bcdd459f")
+		(property "Reference" "RV5"
+			(at 137.16 49.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Vol1"
+			(at 137.16 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "wb50_footprints:WB50_Pot_Omeg_PC20BU_P5.00mm"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 139.7 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5460de86-5956-45d9-b15a-8d2fc7bbdf1b")
+		)
+		(pin "3"
+			(uuid "b0195ba2-9d13-49d7-8c2f-a872e8481294")
+		)
+		(pin "2"
+			(uuid "3885c357-c1b3-4275-9b34-2d3b6c453700")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/fb2444d2-b86f-4030-b036-b8cf56e0db72"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

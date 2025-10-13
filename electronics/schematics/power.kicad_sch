@@ -1,0 +1,5878 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "9366efd3-b37e-4ff0-8bc4-c6ad534b490c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:10uf/100V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10uf{slash}100V"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:CAP-TH_BD6.3-P2.50-D1.0-FD"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/44807.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2029"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2029"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "10uf/100V_0_1"
+				(rectangle
+					(start -2.54 1.524)
+					(end -1.524 1.4986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.032 2.032)
+					(end -2.0066 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid 0 -0.2179)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "10uf/100V_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.826)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:16A_500V_20_5_FuseHolder_THT"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "16A 20mm 500V 5mm Plugin Fuse"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cn.bing.com/search?q=datasheet: 0031.8201.G"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C3204125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C3204125"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "16A_500V_20_5_FuseHolder_THT_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.81 1.27)
+					(end 4.064 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:18uF_450V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "18uF 450V ±20%"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:CAP-TH_BD10.0-P5.00-D1.0-FD"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C781269"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C781269"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "18uF_450V_0_1"
+				(rectangle
+					(start -2.54 1.524)
+					(end -1.524 1.4986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.032 2.032)
+					(end -2.0066 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid 0 -0.2179)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "18uF_450V_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.826)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:3314G-1-503E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3314G-1-503E"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:RES-ADJ-SMD_3314G-1-103E"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/832187.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C719184"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C719184"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "3314G-1-503E_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.016) (xy -1.524 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 0 1.524) (xy 0.508 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 -1.016) (xy 0.254 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -1.016) (xy 1.524 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.016) (xy 2.286 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.016) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.794 0.762)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:CF3WS-10KΩ±5%_T"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CF3WS-10KΩ±5%_T"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:RES-TH_BD5.5-L15.0-P19.00-D0.8"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/325372.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C120810"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C120810"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CF3WS-10KΩ±5%_T_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:CR1/2W-220K±5%-XT52"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CR1{slash}2W-220K±5%-XT52"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:RES-TH_BD3.5-L9.0-P13.00-D0.5"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200609/C601736_823D5FEC32C33ED68EDB1181C52D1F38.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2894491"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2894491"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CR1/2W-220K±5%-XT52_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:CR1/4W-15K±5%-OT52"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CR1{slash}4W-15K±5%-OT52"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/486756.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2894565"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2894565"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CR1/4W-15K±5%-OT52_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:CR1/4W-47K±5%-ST52"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CR1{slash}4W-47K±5%-ST52"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/486756.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2896823"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2896823"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CR1/4W-47K±5%-ST52_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:CR2W-4K7±5%-9T73"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CR2W-4K7±5%-9T73"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:RES-TH_BD5.0-L15.5-P19.50-D0.7"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/73002.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2903451"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C2903451"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CR2W-4K7±5%-9T73_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:LKML2502H330MF"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "33uF 500V 5R5-ESR"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:CAP-TH_BD12.5-P5.00-D0.6-FD"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171212/C160628_15130639756271177994.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C443401"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C443401"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LKML2502H330MF_0_1"
+				(rectangle
+					(start -2.54 1.524)
+					(end -1.524 1.4986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.032 2.032)
+					(end -2.0066 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid 0 -0.2179)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LKML2502H330MF_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.826)
+					(name ""
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:MOF5WS-47Ω±5%"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MOF5WS-47Ω±5%"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:RES-TH_BD6.0-L17.5-P21.50-D0.8"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/334985.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C121969"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C121969"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MOF5WS-47Ω±5%_0_1"
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "jlcpcb:UF4007_C960666"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UF4007_C960666"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://item.szlcsc.com/85412.html"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C960666"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "C960666"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UF4007_C960666_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.778) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.778) (xy -1.27 0) (xy 1.27 -1.778) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "345V ~"
+		(exclude_from_sim no)
+		(at 19.304 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f6e0376-d8ed-4557-a64d-fb7e4a73500b")
+	)
+	(text "3,15V ~"
+		(exclude_from_sim no)
+		(at 20.066 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35f28aa5-b4b5-46e5-bcef-839c5ed97fcc")
+	)
+	(text "345V ~"
+		(exclude_from_sim no)
+		(at 19.558 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55f3fefc-c006-4aaa-8cb4-91bba682882d")
+	)
+	(text "3,15V ~"
+		(exclude_from_sim no)
+		(at 20.066 154.178 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6fbaeb46-0286-4d77-b636-43db8386993b")
+	)
+	(text "Kopplungssimulation"
+		(exclude_from_sim no)
+		(at 115.316 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9f74df5-d54e-4596-990a-2fc0cf3ea8b7")
+	)
+	(junction
+		(at 237.49 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0b862926-d022-4d4a-a76a-9b7ad32d513e")
+	)
+	(junction
+		(at 217.17 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13f25a08-fb3d-491e-91f7-6bde1c3ed8c2")
+	)
+	(junction
+		(at 179.07 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ee64dd7-458a-4284-ae43-38c3176d8010")
+	)
+	(junction
+		(at 185.42 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d4c2098-b45b-4a4a-a5e2-9ac9fa3c5642")
+	)
+	(junction
+		(at 82.55 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d769bf-67f9-4351-971e-998a68abd0e6")
+	)
+	(junction
+		(at 104.14 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96b9cb49-e45a-4e35-91b2-eb9d4c2d68f4")
+	)
+	(junction
+		(at 25.4 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8056a64-2523-45a9-b5d8-6bcce1e1c775")
+	)
+	(junction
+		(at 208.28 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b22988b0-9135-481e-b2b5-466f203770b0")
+	)
+	(junction
+		(at 48.26 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c738104e-8348-49f6-a2c8-c7f25af1aae5")
+	)
+	(junction
+		(at 254 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7380a26-398d-4e1e-88a8-34027dd0688a")
+	)
+	(junction
+		(at 129.54 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8506b04-2ca5-43d7-a796-7df82a14e305")
+	)
+	(junction
+		(at 137.16 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edf85c98-b739-42fe-a975-b7513262d9f6")
+	)
+	(wire
+		(pts
+			(xy 264.16 124.46) (xy 208.28 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c07a8e-8929-48d8-bfa2-f5e3ceb18736")
+	)
+	(wire
+		(pts
+			(xy 104.14 77.47) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0808b120-2676-4e2d-8180-17798e14d983")
+	)
+	(wire
+		(pts
+			(xy 137.16 102.87) (xy 137.16 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08f35fe4-942c-4e1e-97fd-049d6378d532")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0bf8a8-eaea-44f1-b2dd-4db9c079fe88")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 144.78 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd82b3f-3f59-401b-9f2f-6d8918a9fc6a")
+	)
+	(wire
+		(pts
+			(xy 185.42 101.6) (xy 185.42 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1748113a-afb0-42ed-9cb4-7f40731fddf8")
+	)
+	(wire
+		(pts
+			(xy 217.17 88.9) (xy 232.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e0d6ad-4cd5-4f9e-a317-dbedc7dcc069")
+	)
+	(wire
+		(pts
+			(xy 40.64 76.2) (xy 48.26 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ade677c-1a2a-4376-9181-b4bde989ee5a")
+	)
+	(wire
+		(pts
+			(xy 242.57 88.9) (xy 254 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cd5294c-8286-436d-8c6b-e09097940f5e")
+	)
+	(wire
+		(pts
+			(xy 237.49 133.35) (xy 237.49 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e177eec-da9b-4386-ab31-15d97c1e6d05")
+	)
+	(wire
+		(pts
+			(xy 156.21 133.35) (xy 138.43 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f8b2407-c15b-4f62-817d-13b9dad0c162")
+	)
+	(wire
+		(pts
+			(xy 185.42 88.9) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "230aa270-edc6-4b3a-bcee-a1331096d6ec")
+	)
+	(wire
+		(pts
+			(xy 120.65 88.9) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277e8d9b-3ab7-485b-9ec1-9f716abb0d31")
+	)
+	(wire
+		(pts
+			(xy 38.1 147.32) (xy 38.1 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a9aa368-6311-4031-bc2a-dc49711177a0")
+	)
+	(wire
+		(pts
+			(xy 82.55 88.9) (xy 104.14 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3840ac52-2ca7-4f1e-8c51-00639c9f463a")
+	)
+	(wire
+		(pts
+			(xy 242.57 133.35) (xy 237.49 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3844696e-967e-4a20-9e05-ce702385f9c9")
+	)
+	(wire
+		(pts
+			(xy 185.42 88.9) (xy 185.42 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddecd6d-b027-4582-8af2-c9ad5b3af524")
+	)
+	(wire
+		(pts
+			(xy 185.42 77.47) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "404c3cb9-407f-4f6d-824b-b4bac53859be")
+	)
+	(wire
+		(pts
+			(xy 179.07 133.35) (xy 187.96 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474fd16e-9765-48fe-bf40-ea76f0aa9239")
+	)
+	(wire
+		(pts
+			(xy 254 101.6) (xy 254 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4788874f-0d2b-49bb-a752-1a09bbb8c6c8")
+	)
+	(wire
+		(pts
+			(xy 208.28 124.46) (xy 208.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4f969a-4bb9-4bde-abe5-8f220537d3f9")
+	)
+	(wire
+		(pts
+			(xy 242.57 142.24) (xy 242.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9db7a6-96e1-40e4-afdc-37554f1ff24f")
+	)
+	(wire
+		(pts
+			(xy 218.44 133.35) (xy 208.28 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f6ff71-6f5a-4269-a03c-e26c8c1c65a3")
+	)
+	(wire
+		(pts
+			(xy 19.05 101.6) (xy 25.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55000e24-1547-4239-9f17-60044702917a")
+	)
+	(wire
+		(pts
+			(xy 217.17 88.9) (xy 217.17 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "559e42b2-3027-4faf-830b-a69605c22bfb")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 104.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ffb327-e8c0-4825-bf78-10b594b0e1b0")
+	)
+	(wire
+		(pts
+			(xy 19.05 76.2) (xy 30.48 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cd193b5-9ca1-4ef0-b7b5-e7a844ed9d4f")
+	)
+	(wire
+		(pts
+			(xy 254 88.9) (xy 254 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6debc298-d3c3-4eb2-9303-4e6e16588b18")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 104.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e45d3bf-8a3a-448b-982b-ff95ffc4397d")
+	)
+	(wire
+		(pts
+			(xy 129.54 88.9) (xy 137.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e474173-72bf-483a-a5cf-d56f0119ebf5")
+	)
+	(wire
+		(pts
+			(xy 205.74 88.9) (xy 217.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73952820-55f4-4594-8ad1-c724c10a5dcf")
+	)
+	(wire
+		(pts
+			(xy 20.32 160.02) (xy 46.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e1150f-f927-4566-95b0-0a9436814859")
+	)
+	(wire
+		(pts
+			(xy 82.55 90.17) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b28f1bb-2012-456a-9e2d-626cb6a5c556")
+	)
+	(wire
+		(pts
+			(xy 25.4 101.6) (xy 30.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9c0233-8da4-4986-a408-eb1e5fdfbb25")
+	)
+	(wire
+		(pts
+			(xy 179.07 148.59) (xy 179.07 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88390713-d774-4712-8702-da0459182083")
+	)
+	(wire
+		(pts
+			(xy 48.26 76.2) (xy 48.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "902d2551-9fed-4efa-a363-bc307bfb8dba")
+	)
+	(wire
+		(pts
+			(xy 48.26 88.9) (xy 58.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "903f28ff-4013-449a-ba05-75e03e0a2cbb")
+	)
+	(wire
+		(pts
+			(xy 208.28 133.35) (xy 198.12 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e0bb5b-803b-4c04-a1b5-08730605ee52")
+	)
+	(wire
+		(pts
+			(xy 237.49 133.35) (xy 228.6 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d72236-46c2-40dc-98a4-fbf45ba3c42c")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d909df-d2e1-4f4d-9f6d-771bb5b21437")
+	)
+	(wire
+		(pts
+			(xy 217.17 101.6) (xy 217.17 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6928f05-c797-4805-ba8c-dae21fb556af")
+	)
+	(wire
+		(pts
+			(xy 104.14 88.9) (xy 107.95 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80b055b-7575-4bc9-847b-daf01cabffab")
+	)
+	(wire
+		(pts
+			(xy 78.74 88.9) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a884f9b6-4152-4fca-8271-f2dd50c6278a")
+	)
+	(wire
+		(pts
+			(xy 20.32 134.62) (xy 46.99 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a935bede-fb8f-4cb6-8011-22e76b7ddd4f")
+	)
+	(wire
+		(pts
+			(xy 254 77.47) (xy 254 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac27cb11-368a-4458-8766-6ec55c55f0c1")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae13370e-c278-4279-8dbe-00d9057d8cf2")
+	)
+	(wire
+		(pts
+			(xy 48.26 101.6) (xy 40.64 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b00f43f2-74de-4218-9518-2a20fa50ae93")
+	)
+	(wire
+		(pts
+			(xy 217.17 77.47) (xy 217.17 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8d69069-a762-4690-b550-40029f7f4262")
+	)
+	(wire
+		(pts
+			(xy 179.07 133.35) (xy 179.07 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf66242-c25b-4174-8ade-62d0569475ca")
+	)
+	(wire
+		(pts
+			(xy 19.05 88.9) (xy 35.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd5807cb-38e0-4b5a-b505-ada2b4d8d1e8")
+	)
+	(wire
+		(pts
+			(xy 48.26 88.9) (xy 48.26 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc5a7ca-d89f-430e-b104-688695811269")
+	)
+	(wire
+		(pts
+			(xy 128.27 133.35) (xy 83.82 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8f00a18-f5f4-468b-84bb-62549ced8b5d")
+	)
+	(wire
+		(pts
+			(xy 166.37 133.35) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2b7ed2-91df-44c7-8583-096f4fd62dbf")
+	)
+	(wire
+		(pts
+			(xy 208.28 133.35) (xy 208.28 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb89afbc-91c9-4f9a-a317-f88f46355c33")
+	)
+	(wire
+		(pts
+			(xy 83.82 133.35) (xy 83.82 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdf78a25-32d2-4a99-90d8-91fdbc35080e")
+	)
+	(wire
+		(pts
+			(xy 129.54 77.47) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d01bd4f6-8a47-45b6-b3f3-52588015d5cb")
+	)
+	(wire
+		(pts
+			(xy 25.4 119.38) (xy 25.4 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1873c45-3103-4e87-9783-7f8c750aaa3e")
+	)
+	(wire
+		(pts
+			(xy 237.49 147.32) (xy 237.49 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d59c10-239f-4cf6-8c88-742f5f7eb72b")
+	)
+	(wire
+		(pts
+			(xy 120.65 105.41) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d557d5e6-3509-4665-82c0-625b8c1604fe")
+	)
+	(wire
+		(pts
+			(xy 35.56 88.9) (xy 35.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7963423-c06e-41c5-b4f7-0a4c40844a48")
+	)
+	(wire
+		(pts
+			(xy 208.28 148.59) (xy 208.28 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e352fcd0-ae87-40a4-8ca5-2d316c1dd05a")
+	)
+	(wire
+		(pts
+			(xy 82.55 100.33) (xy 82.55 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36bb214-bc6a-42e9-97df-b85dc61b70d8")
+	)
+	(wire
+		(pts
+			(xy 129.54 105.41) (xy 129.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e61528e5-3ecb-45de-a705-5669359bd95c")
+	)
+	(wire
+		(pts
+			(xy 83.82 119.38) (xy 25.4 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc50c77-715f-4acc-989b-972bb531ae92")
+	)
+	(wire
+		(pts
+			(xy 179.07 88.9) (xy 185.42 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa45d52e-4385-4122-8b8d-03ce47adcb62")
+	)
+	(wire
+		(pts
+			(xy 20.32 147.32) (xy 38.1 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc04fb00-b069-471a-a357-574aa14df1a9")
+	)
+	(global_label "HV-B"
+		(shape passive)
+		(at 129.54 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0887f201-0e23-49d7-8afc-4dcb4e1a34d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.54 70.3346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HV-A"
+		(shape passive)
+		(at 104.14 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3d02543a-d17e-4542-806e-2c18acfba4a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 70.516 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HEAT2"
+		(shape passive)
+		(at 46.99 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40e059e6-1013-405a-8725-2741b026d25b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.6091 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HEAT1"
+		(shape passive)
+		(at 46.99 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44356099-3c1b-4045-802c-0cc92ebce105")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.6091 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HV-E"
+		(shape passive)
+		(at 254 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "768c7acd-f881-48c9-b6f1-341b8cd49657")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254 70.4556 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HV-C"
+		(shape passive)
+		(at 185.42 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76d51f5c-3401-4595-8cd7-50d4bafe62aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.42 70.3346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HV-D"
+		(shape passive)
+		(at 217.17 77.47 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac45d100-c217-47ed-b8d7-7eb0d896e993")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.17 70.3346 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "Bias-Set"
+		(shape output)
+		(at 264.16 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb4c77bc-68d3-46e0-a488-7f4092dc2ba9")
+	)
+	(symbol
+		(lib_id "jlcpcb:UF4007_C960666")
+		(at 35.56 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "07192db0-a582-43e2-8074-d626bdc063f2")
+		(property "Reference" "D2"
+			(at 35.56 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF4007_C960666"
+			(at 35.306 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+			(at 35.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/85412.html"
+			(at 37.846 101.727 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C960666"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8aeb849-124c-4408-898d-1b9424b8935e")
+		)
+		(pin "2"
+			(uuid "9a0de128-e7de-4427-8cc4-c79594652c74")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 137.16 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16945e62-1db1-4158-9e45-1e0a151454a8")
+		(property "Reference" "#PWR031"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-AUD"
+			(at 137.16 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 137.16 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0c1db7a-32e3-4f86-bacb-f1e99aaf64d9")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 19.05 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fc1bd8e-7f54-4116-bcb9-d7c740708757")
+		(property "Reference" "AC-IN3"
+			(at 20.32 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 20.32 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 24.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 19.05 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b50d43c9-ecc6-4517-ab7f-0e1930fe86ad")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "AC-IN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:CR1/4W-15K±5%-OT52")
+		(at 193.04 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30cebfea-bb07-4941-9078-d92fa84baad8")
+		(property "Reference" "R29"
+			(at 193.04 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1/4W-15K±5%-OT52"
+			(at 193.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+			(at 193.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/486756.html"
+			(at 195.326 133.223 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2894565"
+			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1456692-38b8-4dc9-bbf7-0828824a76f6")
+		)
+		(pin "2"
+			(uuid "fe52d312-87d2-44c0-942a-4aea11a86898")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 120.65 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3240e4b3-caec-4d3e-a6a5-d03d39159de9")
+		(property "Reference" "Choke2"
+			(at 121.158 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 121.92 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 120.65 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "878b985f-4edd-4c16-a472-20283615038d")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "Choke2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 237.49 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35ce31a7-294f-41a9-a59c-42994c75a5cd")
+		(property "Reference" "#PWR038"
+			(at 237.49 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-PWR"
+			(at 237.49 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 237.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c68fb45-0d6f-41bf-9456-e71f7fd98b6f")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 20.32 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3694d272-e4a0-455e-b6d5-c83c05efcbb1")
+		(property "Reference" "AC-IN6"
+			(at 21.59 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 21.59 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54c2cbb9-c022-46f0-9ce6-8d7880944c69")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "AC-IN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:LKML2502H330MF")
+		(at 82.55 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "384e50f2-07e8-4806-a920-9346439fcced")
+		(property "Reference" "C8"
+			(at 86.36 93.5989 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33uF 500V 5R5-ESR"
+			(at 86.36 96.1389 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD12.5-P5.00-D0.6-FD"
+			(at 82.55 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171212/C160628_15130639756271177994.pdf"
+			(at 80.264 95.123 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C443401"
+			(at 82.55 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00012d53-f467-4b03-aa0d-47276a178b77")
+		)
+		(pin "2"
+			(uuid "0383566d-9214-4b4b-a4b9-a212bea5fff3")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:CR2W-4K7±5%-9T73")
+		(at 149.86 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ae3e0ef-a0d4-41de-9e26-aa4e8eb1b30f")
+		(property "Reference" "U32"
+			(at 149.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR2W-4K7±5%-9T73"
+			(at 149.86 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD5.0-L15.5-P19.50-D0.7"
+			(at 149.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/73002.html"
+			(at 147.574 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2903451"
+			(at 149.86 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d83bc6be-f15a-4691-b1b2-8523fe6cb411")
+		)
+		(pin "1"
+			(uuid "c38c904a-ab79-4898-8cbf-c7a956e43623")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:10uf/100V")
+		(at 179.07 143.51 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43312800-028b-49b5-951d-60572fea4f6d")
+		(property "Reference" "C14"
+			(at 175.26 142.6209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uf/100V"
+			(at 175.26 145.1609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD6.3-P2.50-D1.0-FD"
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/44807.html"
+			(at 176.784 143.637 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2029"
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "324dca65-cf0b-42a8-96e2-9a2b248e32ff")
+		)
+		(pin "2"
+			(uuid "155920ea-18cf-4fcc-891d-f1a826bb29ea")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:10uf/100V")
+		(at 208.28 143.51 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ccf2278-45b7-4280-80bc-5dae5037ca73")
+		(property "Reference" "C13"
+			(at 204.47 142.6209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10uf/100V"
+			(at 204.47 145.1609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD6.3-P2.50-D1.0-FD"
+			(at 208.28 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/44807.html"
+			(at 205.994 143.637 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 208.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2029"
+			(at 208.28 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65333776-6157-4611-ae2c-143f7567e3c4")
+		)
+		(pin "2"
+			(uuid "73c0d6bd-0495-41e6-a348-11225032cd8a")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:16A_500V_20_5_FuseHolder_THT")
+		(at 68.58 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e25bf7c-f36a-44c2-a9b2-f7ea49c57251")
+		(property "Reference" "U31"
+			(at 68.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "16A 20mm 500V 5mm Plugin Fuse"
+			(at 68.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:FUSE-TH_L22.5-W10.8-P22.50_0031.8201.G"
+			(at 68.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cn.bing.com/search?q=datasheet: 0031.8201.G"
+			(at 66.294 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3204125"
+			(at 68.58 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01da6eef-001c-4236-977a-bbd8bbfb4866")
+		)
+		(pin "2"
+			(uuid "9f2c7557-8b94-4d67-9c7d-2c9d4045a635")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "U31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:CR1/4W-47K±5%-ST52")
+		(at 223.52 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ad5424a-68bc-43ea-b80a-14e18f28f869")
+		(property "Reference" "R28"
+			(at 223.52 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1/4W-47K±5%-ST52"
+			(at 223.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD2.7-L6.2-P10.20-D0.4"
+			(at 223.52 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/486756.html"
+			(at 225.806 133.223 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2896823"
+			(at 223.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0a26a18-9d6b-4dbc-a4ff-07afc2b04ef7")
+		)
+		(pin "2"
+			(uuid "864e1cfb-567e-4913-ba7a-f4f1241ddc3b")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:CF3WS-10KΩ±5%_T")
+		(at 237.49 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f46147c-79aa-4daf-b613-024fad5559e4")
+		(property "Reference" "R27"
+			(at 237.49 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CF3WS-10KΩ±5%_T"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD5.5-L15.0-P19.00-D0.8"
+			(at 237.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/325372.html"
+			(at 235.204 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C120810"
+			(at 237.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e86fade-fb0c-4eed-8d87-bb589afc3791")
+		)
+		(pin "2"
+			(uuid "a7ec76a3-8101-40ab-b01b-4a7124627a72")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 20.32 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6894e4d7-511a-4c8e-9904-7114232d7a8c")
+		(property "Reference" "AC-IN7"
+			(at 21.59 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 21.59 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+			(at 25.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 20.32 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb5278d9-64ba-4716-b8c0-f9a9b2040131")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "AC-IN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:UF4007_C960666")
+		(at 35.56 76.2 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "715ee0b1-8d5c-4a2a-9c24-9a91485a776c")
+		(property "Reference" "D1"
+			(at 35.56 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF4007_C960666"
+			(at 35.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+			(at 35.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/85412.html"
+			(at 37.846 76.327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C960666"
+			(at 35.56 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7967baa-f8a7-4e47-803b-15d208c3a690")
+		)
+		(pin "2"
+			(uuid "08e2996a-c5b2-4349-b176-222dd270cdeb")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7a817b37-c9a3-4e04-862d-950c3804bd69")
+		(property "Reference" "#PWR030"
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-PWR"
+			(at 82.55 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b89f124-923a-4bc2-b412-41db552ef4eb")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:18uF_450V")
+		(at 217.17 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b7c33a0-becc-40d1-a2b6-06e22a4f5155")
+		(property "Reference" "C11"
+			(at 220.98 94.8689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18uF 450V ±20%"
+			(at 220.98 97.4089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD10.0-P5.00-D1.0-FD"
+			(at 217.17 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.884 96.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C781269"
+			(at 217.17 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c035c7dc-b577-4dc9-9623-c329fda32188")
+		)
+		(pin "1"
+			(uuid "412bb1d6-cab2-423b-8a7b-52fe756c2e88")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 19.05 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "889210a5-b2a4-4a69-bfc6-e788baaa41ec")
+		(property "Reference" "AC-IN1"
+			(at 20.32 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 20.32 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 19.05 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1740c7d-b8c4-4d57-bdcf-0a104a337840")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "AC-IN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 107.95 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "88c650c5-b710-4903-af2d-0fac6517ee1c")
+		(property "Reference" "Choke1"
+			(at 107.696 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 109.22 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c2643c-1237-437a-839a-643df31a5480")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "Choke1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:3314G-1-503E")
+		(at 237.49 142.24 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af76d28-eb9e-458c-b5c5-74256ee1abdf")
+		(property "Reference" "U33"
+			(at 234.95 140.7159 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3314G-1-503E"
+			(at 234.95 143.2559 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "footprints:RES-ADJ-SMD_3314G-1-103E"
+			(at 227.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/832187.html"
+			(at 237.617 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 237.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C719184"
+			(at 237.49 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04ac26e6-bceb-439a-8d3a-5cb8db780e43")
+		)
+		(pin "2"
+			(uuid "e3666c83-c4e0-4a7a-bed1-66181b057ee5")
+		)
+		(pin "3"
+			(uuid "015d75b0-2a82-47b7-b8bc-aaa1af8cbbcd")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:18uF_450V")
+		(at 254 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e404329-3075-4a91-8e75-b14065b2c298")
+		(property "Reference" "C12"
+			(at 257.81 94.8689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18uF 450V ±20%"
+			(at 257.81 97.4089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD10.0-P5.00-D1.0-FD"
+			(at 254 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.714 96.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C781269"
+			(at 254 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d7891c7a-f5d1-4c93-89d0-4b254948c621")
+		)
+		(pin "1"
+			(uuid "ac499315-fd43-4a3d-aaba-372e6dc92e97")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:UF4007_C960666")
+		(at 161.29 133.35 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9450d999-a483-41fd-ad43-60791f160e46")
+		(property "Reference" "D3"
+			(at 161.29 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UF4007_C960666"
+			(at 161.29 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+			(at 161.29 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/85412.html"
+			(at 159.004 133.477 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C960666"
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03e0787d-7b97-46b7-aa37-a71df26cb975")
+		)
+		(pin "2"
+			(uuid "8d0e3e91-e8da-4609-b160-3de45350cf42")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 148.59 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3faf857-4ab9-4ab4-9a17-21d2e1831d8c")
+		(property "Reference" "#PWR052"
+			(at 148.59 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-AUD"
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "caffa03f-4405-4285-a361-396c7dbb3631")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:LKML2502H330MF")
+		(at 137.16 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b700f8-f8f3-4320-9adc-0db822f1754e")
+		(property "Reference" "C9"
+			(at 140.97 94.8689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33uF 500V 5R5-ESR"
+			(at 140.97 97.4089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD12.5-P5.00-D0.6-FD"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171212/C160628_15130639756271177994.pdf"
+			(at 134.874 96.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C443401"
+			(at 137.16 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e851f0b-bf17-405f-94d8-3b6360a8cb1d")
+		)
+		(pin "2"
+			(uuid "8961630a-35ce-4b78-ba15-b227005bc7e9")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5cb267e-65f1-4a2c-b4f0-accd41e89eac")
+		(property "Reference" "#PWR034"
+			(at 254 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-AUD"
+			(at 254 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea4899f6-3531-47dc-94e9-b3c1c39ea045")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:CR1/2W-220K±5%-XT52")
+		(at 133.35 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af35f0c4-02ea-41e2-a008-a9975063669d")
+		(property "Reference" "R32"
+			(at 133.35 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CR1/2W-220K±5%-XT52"
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD3.5-L9.0-P13.00-D0.5"
+			(at 133.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200609/C601736_823D5FEC32C33ED68EDB1181C52D1F38.pdf"
+			(at 131.064 133.223 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2894491"
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a78a452-28e1-448b-b4b2-88ecf4669478")
+		)
+		(pin "2"
+			(uuid "bde00e6f-9ea1-4b31-9b14-6c0592691758")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:CF3WS-10KΩ±5%_T")
+		(at 200.66 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd4d893b-a593-45c0-8163-19ebfe07b50f")
+		(property "Reference" "R26"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CF3WS-10KΩ±5%_T"
+			(at 200.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD5.5-L15.0-P19.00-D0.8"
+			(at 200.66 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/325372.html"
+			(at 198.374 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C120810"
+			(at 200.66 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "69c1c5b3-98df-458e-b367-a4c1ea66cfa6")
+		)
+		(pin "2"
+			(uuid "12bd41ca-1837-41d0-a8c9-1c5a27ada549")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 137.16 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c12f47b0-eb32-44e7-ba29-b9d6ab5a52cf")
+		(property "Reference" "HV-B1"
+			(at 137.16 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 137.16 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 137.16 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3f55006-191a-43ff-a4ba-33dc6ae9246d")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "HV-B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c4594b-66bc-49cb-972b-3f221722a78f")
+		(property "Reference" "#PWR036"
+			(at 179.07 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-PWR"
+			(at 179.07 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bf273dd-5609-4651-96a9-e34f913cf779")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c34d50f2-4e34-4d49-bcd0-d72c5fa962ec")
+		(property "Reference" "#PWR035"
+			(at 38.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-PWR"
+			(at 38.1 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49ebbb9a-56fd-4836-a740-26133512391e")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdaea071-112e-45c1-9e66-cc1622683678")
+		(property "Reference" "#PWR037"
+			(at 208.28 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-PWR"
+			(at 208.28 157.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "549f95a5-a0bd-4344-a16c-80f6d3be45c8")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dae42862-9cc5-470f-a633-7e2cfb1d5ba3")
+		(property "Reference" "#PWR032"
+			(at 185.42 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-AUD"
+			(at 185.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f74a8d61-1759-4a63-82d4-b1c655e0b31d")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 148.59 68.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de46dcbf-d438-4d87-9965-8980ce230a89")
+		(property "Reference" "GND-AUD1"
+			(at 148.59 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 148.59 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 148.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d31990cf-514f-4674-b9e2-6e3ced677b3a")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "GND-AUD1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:LKML2502H330MF")
+		(at 185.42 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df21b151-d888-429a-a1f4-b6618b3ca993")
+		(property "Reference" "C10"
+			(at 189.23 94.8689 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33uF 500V 5R5-ESR"
+			(at 189.23 97.4089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CAP-TH_BD12.5-P5.00-D0.6-FD"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20171212/C160628_15130639756271177994.pdf"
+			(at 183.134 96.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C443401"
+			(at 185.42 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7697cbab-8d21-4d44-be67-d53ae72eb629")
+		)
+		(pin "2"
+			(uuid "130a9db0-f83e-4c24-9234-f97c952b3921")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:MOF5WS-47Ω±5%")
+		(at 115.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e35bb860-30c7-4629-b69b-ee426d971c77")
+		(property "Reference" "R24"
+			(at 115.57 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MOF5WS-47Ω±5%"
+			(at 115.57 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD6.0-L17.5-P21.50-D0.8"
+			(at 115.57 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/334985.html"
+			(at 113.284 105.283 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C121969"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f854f220-d4bb-45cb-a093-24a2eb6f08f0")
+		)
+		(pin "2"
+			(uuid "29d8ae1e-5700-4cf9-a6ec-82dd3f881dd3")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:CF3WS-10KΩ±5%_T")
+		(at 173.99 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0b57262-711d-4390-a0d9-73c28f9c96e8")
+		(property "Reference" "R25"
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CF3WS-10KΩ±5%_T"
+			(at 173.99 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:RES-TH_BD5.5-L15.0-P19.00-D0.8"
+			(at 173.99 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/325372.html"
+			(at 171.704 88.773 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C120810"
+			(at 173.99 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e2628d4-d937-4ff3-9e78-5825b49c77a1")
+		)
+		(pin "2"
+			(uuid "8f09a388-dbeb-401c-b534-256f05ab3ca9")
+		)
+		(instances
+			(project ""
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f78f4f57-183f-4058-bf66-0df73989b978")
+		(property "Reference" "#PWR033"
+			(at 217.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-AUD"
+			(at 217.17 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe10b845-342a-4eaa-92e6-08e216d59c0c")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb36ead0-6f3b-4774-9814-7250f6daa51c")
+		(property "Reference" "#PWR029"
+			(at 35.56 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND-PWR"
+			(at 35.56 94.234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9afa6dd1-81b8-4089-8350-db9e98295e70")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 20.32 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc0ff99d-3a85-4be9-9fb3-d98896acd018")
+		(property "Reference" "AC-IN8"
+			(at 21.59 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 21.59 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D4.0mm_Drill2.0mm"
+			(at 25.4 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 20.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6e5e6946-7afe-46f8-b869-2efa785c9547")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "AC-IN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 19.05 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffe1a93b-8e98-42bb-bad4-dc23cfe621ff")
+		(property "Reference" "AC-IN2"
+			(at 20.32 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 20.32 90.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 24.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 19.05 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e726811-724c-41e9-8fe8-4e72ff15b3b2")
+		)
+		(instances
+			(project "wb50"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a/1d95444c-de5c-440e-b338-1d9c97a29411"
+					(reference "AC-IN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
