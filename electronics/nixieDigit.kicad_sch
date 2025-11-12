@@ -751,7 +751,7 @@
 				)
 			)
 		)
-		(property "Value" "FRC0603F6340TS"
+		(property "Value" "0603WAF2000T5E"
 			(at 120.65 82.55 0)
 			(effects
 				(font
@@ -788,7 +788,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23138"
+		(property "LCSC" "C8218"
 			(at 120.65 86.36 0)
 			(effects
 				(font
