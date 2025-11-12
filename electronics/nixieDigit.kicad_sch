@@ -106,7 +106,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:FRC0603F6340TS"
+		(symbol "symbols:0603WAF2000T5E"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -118,7 +118,7 @@
 					)
 				)
 			)
-			(property "Value" "FRC0603F6340TS"
+			(property "Value" "0603WAF2000T5E"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -155,7 +155,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C23138"
+			(property "LCSC" "C8218"
 				(at 0 0 0)
 				(effects
 					(font
@@ -164,7 +164,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "C23138"
+			(property "ki_keywords" "C8218"
 				(at 0 0 0)
 				(effects
 					(font
@@ -173,7 +173,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "FRC0603F6340TS_0_1"
+			(symbol "0603WAF2000T5E_0_1"
 				(rectangle
 					(start -2.54 1.016)
 					(end 2.54 -1.016)
@@ -734,7 +734,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:FRC0603F6340TS")
+		(lib_id "symbols:0603WAF2000T5E")
 		(at 120.65 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)

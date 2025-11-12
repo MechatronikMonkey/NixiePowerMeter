@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 1.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -58,7 +58,36 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|225711494|173366268|a9371d64-54b7-43cd-9b2a-8ac06663671d|3cf1d3f0-48e5-4fd8-867a-a03c6a069044",
+          ""
+        ],
+        [
+          "clearance|231171494|173376268|bf6bcfb1-7326-4f45-9ac5-7c48320e6e50|806577f2-4723-49b9-b74c-56c4c4f74a3b",
+          ""
+        ],
+        [
+          "clearance|245693173|230426747|22f8d66e-dd2a-4f8f-8872-71ca302dd572|bf7c889f-2075-452a-965e-a43046677e9e",
+          ""
+        ],
+        [
+          "clearance|246563423|231296997|22f8d66e-dd2a-4f8f-8872-71ca302dd572|58f252e2-bfcb-46bd-a22a-674fe34ed663",
+          ""
+        ],
+        [
+          "clearance|266693173|230426747|11d6daa6-868f-4283-91c2-1e03ce1a8db2|49c8d6e2-879d-4225-9c39-c8ed4ab02041",
+          ""
+        ],
+        [
+          "clearance|266693173|230426747|49c8d6e2-879d-4225-9c39-c8ed4ab02041|5a2eaf88-6951-4e72-b935-bb7815a23b48",
+          ""
+        ],
+        [
+          "clearance|267563423|231296997|49c8d6e2-879d-4225-9c39-c8ed4ab02041|0f92479e-82ef-4582-b9b2-781e56f3bc5f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -123,7 +152,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -509,6 +538,13 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 1.0,
+        "name": "HighDistance",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -516,7 +552,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "HighDistance",
+        "pattern": "+325V"
+      },
+      {
+        "netclass": "HighDistance",
+        "pattern": "/DiodeCenter"
+      },
+      {
+        "netclass": "HighDistance",
+        "pattern": "+182V"
+      },
+      {
+        "netclass": "HighDistance",
+        "pattern": "/Anode1"
+      },
+      {
+        "netclass": "HighDistance",
+        "pattern": "/Anode2"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -526,7 +583,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "pcb/wb50.step",
+      "step": "pcb/NixiePM.step",
       "svg": "",
       "vrml": ""
     },

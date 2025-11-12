@@ -3250,7 +3250,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 120.65) (xy 26.67 123.19)
+			(xy 20.32 130.81) (xy 20.32 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3367,16 +3367,6 @@
 			(type default)
 		)
 		(uuid "10fb90aa-14db-4b4e-ace8-377741cbc097")
-	)
-	(wire
-		(pts
-			(xy 46.99 115.57) (xy 46.99 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11ed45d8-d702-43c2-9418-cab601d00685")
 	)
 	(wire
 		(pts
@@ -3810,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 135.89) (xy 46.99 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f195cb-8033-476e-80e6-0fe87532a8bc")
+	)
+	(wire
+		(pts
 			(xy 327.66 34.29) (xy 317.5 34.29)
 		)
 		(stroke
@@ -4040,7 +4040,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 115.57) (xy 46.99 115.57)
+			(xy 50.8 115.57) (xy 48.26 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4050,7 +4050,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 130.81) (xy 26.67 128.27)
+			(xy 20.32 140.97) (xy 20.32 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4590,7 +4590,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 128.27) (xy 30.48 128.27)
+			(xy 20.32 138.43) (xy 24.13 138.43)
 		)
 		(stroke
 			(width 0)
@@ -4627,6 +4627,16 @@
 			(type default)
 		)
 		(uuid "919f12c3-e708-4d92-9a19-34a54ca2d090")
+	)
+	(wire
+		(pts
+			(xy 46.99 125.73) (xy 50.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9276bb6a-e123-47b8-b3db-5eb208eca655")
 	)
 	(wire
 		(pts
@@ -4747,6 +4757,16 @@
 			(type default)
 		)
 		(uuid "a8dada9a-afe7-4ad2-ade6-78b74c5d7296")
+	)
+	(wire
+		(pts
+			(xy 50.8 118.11) (xy 33.02 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa9c2936-8755-43b3-8899-199912fc1da9")
 	)
 	(wire
 		(pts
@@ -5170,6 +5190,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 118.11) (xy 33.02 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df419ca1-dcf1-4bce-a4e9-652a748484ec")
+	)
+	(wire
+		(pts
 			(xy 163.83 115.57) (xy 163.83 161.29)
 		)
 		(stroke
@@ -5320,7 +5350,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 123.19) (xy 26.67 123.19)
+			(xy 24.13 133.35) (xy 20.32 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5370,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 125.73) (xy 50.8 125.73)
+			(xy 39.37 135.89) (xy 46.99 135.89)
 		)
 		(stroke
 			(width 0)
@@ -5530,7 +5560,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 130.81 0)
+		(at 20.32 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5539,7 +5569,7 @@
 		(fields_autoplaced yes)
 		(uuid "040aaa1b-bc9d-4de9-a7a5-f294e4e4efa9")
 		(property "Reference" "#PWR06"
-			(at 26.67 137.16 0)
+			(at 20.32 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5548,7 +5578,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 135.89 0)
+			(at 20.32 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +5586,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 130.81 0)
+			(at 20.32 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +5595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 130.81 0)
+			(at 20.32 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +5604,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 130.81 0)
+			(at 20.32 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5685,72 +5715,6 @@
 			(project ""
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(reference "NX1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 123.19 191.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09aa50fd-0bc7-4023-be5d-d15e2a4815f2")
-		(property "Reference" "#PWR013"
-			(at 123.19 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 117.602 189.992 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 123.19 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c58ac992-edaf-47a9-98cc-a25443000529")
-		)
-		(instances
-			(project "NixiePM"
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6106,7 +6070,7 @@
 	)
 	(symbol
 		(lib_id "symbols:QNHC3")
-		(at 38.1 125.73 0)
+		(at 31.75 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6115,7 +6079,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e91ec3d-78f3-4fc5-b03b-6b9de7814748")
 		(property "Reference" "U4"
-			(at 38.1 115.57 0)
+			(at 31.75 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6123,7 +6087,7 @@
 			)
 		)
 		(property "Value" "QNHC3"
-			(at 38.1 118.11 0)
+			(at 31.75 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6131,7 +6095,7 @@
 			)
 		)
 		(property "Footprint" "footprints:HALL-SENSOR_5P-P2.54-H13.5"
-			(at 38.1 134.62 0)
+			(at 31.75 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,7 +6105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 125.73 0)
+			(at 31.75 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6150,7 +6114,7 @@
 			)
 		)
 		(property "Description" "Hall Current Sensor, Output 2.5±2V, Input ±6A"
-			(at 38.1 125.73 0)
+			(at 31.75 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,6 +6703,71 @@
 			(project "NixiePM"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(reference "AC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 121.92 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40cf0e5d-31f6-4d87-9877-0f181a17fb1d")
+		(property "Reference" "#PWR010"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 119.888 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 121.92 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "709c3af6-eed7-4cee-aec3-c49fbd0fdb94")
+		)
+		(instances
+			(project "NixiePM"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7636,7 +7665,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 116.84 0)
+		(at 48.26 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7645,7 +7674,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c81d3d6-3b6a-42b4-8890-ee072d20d9bc")
 		(property "Reference" "#PWR07"
-			(at 46.99 123.19 0)
+			(at 41.91 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,15 +7683,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 121.92 0)
+			(at 44.45 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 116.84 0)
+			(at 48.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7671,7 +7701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 116.84 0)
+			(at 48.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +7710,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 116.84 0)
+			(at 48.26 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7881,6 +7911,71 @@
 			(project "NixiePM"
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 121.92 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "905f4e48-0dd4-4321-8353-739505c40133")
+		(property "Reference" "#PWR03"
+			(at 121.92 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 119.888 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 121.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f92c1de-1935-47fc-9a6d-ccb925ef09be")
+		)
+		(instances
+			(project "NixiePM"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8113,6 +8208,71 @@
 			(project ""
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 123.19 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b48e1c1-a499-4f79-acbf-2afeca0e17c9")
+		(property "Reference" "#PWR013"
+			(at 123.19 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 120.65 187.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 123.19 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "473b286c-ceca-4e8c-8008-d53d9112dd33")
+		)
+		(instances
+			(project "NixiePM"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8544,16 +8704,16 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 26.67 120.65 0)
+		(at 33.02 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bd05cfa2-6662-43ae-b45c-5c67d3aae21a")
-		(property "Reference" "#PWR05"
-			(at 26.67 124.46 0)
+		(uuid "b6a32c32-1d9d-4c3f-b5a8-66ba9a76f523")
+		(property "Reference" "#PWR067"
+			(at 33.02 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,8 +8721,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 26.67 115.57 0)
+		(property "Value" "+3V3"
+			(at 33.02 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8570,7 +8730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 120.65 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8579,7 +8739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 120.65 0)
+			(at 33.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8588,7 +8748,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 26.67 120.65 0)
+			(at 33.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3122c24f-0989-4833-803d-8ac96d2278d0")
+		)
+		(instances
+			(project "NixiePM"
+				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 20.32 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd05cfa2-6662-43ae-b45c-5c67d3aae21a")
+		(property "Reference" "#PWR05"
+			(at 20.32 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 20.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 20.32 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8968,72 +9194,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2e5b940-b922-4493-9b9b-3c70a5250bbe")
-		(property "Reference" "#PWR03"
-			(at 121.92 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.332 97.282 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "26bf5439-7023-4d2e-b963-7bd2de0eebb6")
-		)
-		(instances
-			(project "NixiePM"
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "symbols:LKML2502H330MF")
 		(at 293.37 41.91 0)
 		(unit 1)
@@ -9109,72 +9269,6 @@
 			(project ""
 				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 121.92 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f2e082c8-d381-47e6-9cc4-294d15362d3c")
-		(property "Reference" "#PWR010"
-			(at 121.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 116.332 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 121.92 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e095a5d6-7f61-445d-88b3-eca00bc147fb")
-		)
-		(instances
-			(project "NixiePM"
-				(path "/6805e3ef-87bd-473d-890f-05ae2da73c1a"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
