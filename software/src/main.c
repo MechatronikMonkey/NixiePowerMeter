@@ -16,10 +16,10 @@
 
 // --- Hardware Pins (an ESP32-S3 Zero anpassen) ---
 #define LED_PIN             GPIO_NUM_21 // WS2812B
-#define ADC_PIN             GPIO_NUM_1  // ADC1 Channel 0
+#define ADC_PIN             GPIO_NUM_6  // ADC1 Channel 5
 #define BUTTON_PIN          GPIO_NUM_0  // Boot Button (Input)
 #define ADC_UNIT            ADC_UNIT_1
-#define ADC_CHANNEL         ADC_CHANNEL_0
+#define ADC_CHANNEL         ADC_CHANNEL_5
 
 // Shift Register (74HC595)
 #define SR_DATA_PIN         GPIO_NUM_10 // DS (SER)
@@ -70,6 +70,8 @@ static adc_continuous_handle_t handle = NULL;
 // RMS Akkumulatoren
 typedef struct {
     double sum_squares;
+    double sum_volts;   // Für DC Diagnose
+    uint64_t sum_raw;   // Für Raw Value Diagnose
     uint32_t count;
 } adc_chunk_result_t;
 
@@ -328,6 +330,8 @@ void adc_processing_task(void *pvParameters) {
         
         if (ret == ESP_OK) {
             chunk_res.sum_squares = 0;
+            chunk_res.sum_volts = 0;
+            chunk_res.sum_raw = 0;
             chunk_res.count = 0;
 
             for (int i = 0; i < ret_num; i += SOC_ADC_DIGI_RESULT_BYTES) {
@@ -339,6 +343,10 @@ void adc_processing_task(void *pvParameters) {
                     float current_a = raw_to_ampere(data);
                     // RMS integration: Summe(x^2)
                     chunk_res.sum_squares += (current_a * current_a);
+                    // Debug Stats
+                    chunk_res.sum_volts += current_a; 
+                    chunk_res.sum_raw += data;
+
                     chunk_res.count++;
                 }
             }
@@ -378,6 +386,8 @@ void main_logic_task(void *pvParameters) {
     adc_chunk_result_t chunk_in;
     
     double total_sum_sq = 0;
+    double total_sum_volts = 0; // Ampere eigentlich
+    uint64_t total_sum_raw = 0;
     uint64_t total_samples = 0;
     
     TickType_t last_output_time = xTaskGetTickCount();
@@ -440,6 +450,8 @@ void main_logic_task(void *pvParameters) {
         // Wir begrenzen die Schleife nicht, um die Queue schnell leer zu machen
         while(xQueueReceive(result_queue, &chunk_in, pdMS_TO_TICKS(10)) == pdTRUE) {
             total_sum_sq += chunk_in.sum_squares;
+            total_sum_volts += chunk_in.sum_volts;
+            total_sum_raw += chunk_in.sum_raw;
             total_samples += chunk_in.count;
             total_samples_since_boot += chunk_in.count;
         }
@@ -462,21 +474,32 @@ void main_logic_task(void *pvParameters) {
             } else {
                 // NORMAL MODE
                 float rms_amperes = 0.0f;
+                float dc_avg_amp = 0.0f;
+                float raw_avg = 0.0f;
+
                 if (total_samples > 0) {
                     rms_amperes = sqrtf(total_sum_sq / total_samples);
+                    dc_avg_amp = (float)(total_sum_volts / total_samples);
+                    raw_avg = (float)total_sum_raw / total_samples;
                 }
 
                 // Apply Factor based on Mode
                 float factor = MODES[current_mode_idx].factor;
                 int display_val = (int)(rms_amperes * factor + 0.5f);
                 
-                ESP_LOGI(TAG, "RMS: %.3f A (Mode x%.0f -> %d)", rms_amperes, factor, display_val);
+                // Detailed Logging for Debugging the "30" issue
+                // Wenn raw_avg ~0 ist, hat der Sensor 0V output (Pin auf GND).
+                // Sollte aber bei 2.5V Sensor ~2270 (bei 12 bit und divider) liegen.
+                ESP_LOGI(TAG, "RMS: %.3f A | DC: %.3f A | RawAvg: %.1f | Dis: %d", 
+                         rms_amperes, dc_avg_amp, raw_avg, display_val);
                 
                 update_display(display_val);
             }
 
             // Reset für nächstes 500ms Intervall
             total_sum_sq = 0;
+            total_sum_volts = 0;
+            total_sum_raw = 0;
             total_samples = 0;
             last_output_time = now;
         }
