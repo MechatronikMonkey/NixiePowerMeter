@@ -24,8 +24,9 @@
 // Shift Register (74HC595)
 #define SR_DATA_PIN         GPIO_NUM_10 // DS (SER)
 #define SR_OE_PIN           GPIO_NUM_9  // OE (Output Enable, low active)
-#define SR_LATCH_PIN        GPIO_NUM_8  // ST_CP (RCLK)
-#define SR_CLOCK_PIN        GPIO_NUM_7  // SH_CP (SRCLK)
+#define SR_LATCH_PIN        GPIO_NUM_8  // ST_CP (RCLK) - Storage Register Clock
+#define SR_CLOCK_PIN        GPIO_NUM_7  // SH_CP (SRCLK) - Shift Register Clock
+#define SR_MR_PIN           GPIO_NUM_11 // MR (Master Reset, low active)
 
 // --- Mess-Parameter ---
 #define SAMPLE_FREQ_HZ      80000       // 80 kHz Sampling
@@ -182,23 +183,38 @@ void init_shift_register() {
     gpio_reset_pin(SR_CLOCK_PIN);
     gpio_reset_pin(SR_LATCH_PIN);
     gpio_reset_pin(SR_OE_PIN);
+    gpio_reset_pin(SR_MR_PIN);
 
     gpio_set_direction(SR_DATA_PIN, GPIO_MODE_OUTPUT);
     gpio_set_direction(SR_CLOCK_PIN, GPIO_MODE_OUTPUT);
     gpio_set_direction(SR_LATCH_PIN, GPIO_MODE_OUTPUT);
     gpio_set_direction(SR_OE_PIN, GPIO_MODE_OUTPUT);
+    gpio_set_direction(SR_MR_PIN, GPIO_MODE_OUTPUT);
     
+    // Initial State
+    // MR (Master Reset) - Low active. L resets Shift Register.
+    // wir resetten kurz und setzen dann auf High (Operation Mode).
+    gpio_set_level(SR_MR_PIN, 0); 
+    // Wait tiny bit? (ESP GPIO is slow enough usually, but let's do explicit set)
     gpio_set_level(SR_CLOCK_PIN, 0);
     gpio_set_level(SR_LATCH_PIN, 0);
-    gpio_set_level(SR_OE_PIN, 0); // Enable Output (Low Active)
+    
+    // Release Reset
+    gpio_set_level(SR_MR_PIN, 1);
+
+    // OE (Output Enable) - Low active.
+    // Low = Outputs enabled (Visible). High = High-Z (Off).
+    gpio_set_level(SR_OE_PIN, 0); 
 }
 
 void shift_out_byte(uint8_t data) {
+    // MSB First
     for (int i = 7; i >= 0; i--) {
         gpio_set_level(SR_CLOCK_PIN, 0);
         gpio_set_level(SR_DATA_PIN, (data >> i) & 1);
-        gpio_set_level(SR_CLOCK_PIN, 1);
+        gpio_set_level(SR_CLOCK_PIN, 1); // Rising Edge -> Shift
     }
+    gpio_set_level(SR_CLOCK_PIN, 0); // Idle Low
 }
 
 // Schreibt 3 Bytes und aktiviert Latch
@@ -211,7 +227,7 @@ void write_nixie_register(uint8_t r1, uint8_t r2, uint8_t r3) {
     shift_out_byte(r2);
     shift_out_byte(r1);
 
-    // Latch toggle
+    // Latch toggle (Rising Edge transfers Shift Reg -> Storage Reg)
     gpio_set_level(SR_LATCH_PIN, 0);
     gpio_set_level(SR_LATCH_PIN, 1);
     gpio_set_level(SR_LATCH_PIN, 0);
@@ -229,58 +245,48 @@ void update_display(int number) {
     uint8_t reg3 = 0;
 
     /*
-      Mapping laut User Beschreibung:
-      
-      Zehner-Stelle (Tens):
-      Reg1 Q1(Bit0) -> 1
-      Reg1 Q2(Bit1) -> 2
-      ...
-      Reg1 Q7(Bit6) -> 7
-      
-      Reg2 Q1(Bit0) -> 8
-      Reg2 Q2(Bit1) -> 9
-      Reg2 Q3(Bit2) -> 0
+      Mapping Korrektur (Basierend auf User Input):
+      Q0 (Bit 0) ist bei allen Registern NICHT angeschlossen (Layout bedingt).
+      Q1 entspricht also Bit 1 (1<<1), usw.
 
-      Einer-Stelle (Ones):
-      Reg2 Q4(Bit3) -> 1
-      Reg2 Q5(Bit4) -> 2
-      Reg2 Q6(Bit5) -> 3
-      Reg2 Q7(Bit6) -> 4
+      Zehner-Stelle:
+      1: Reg1 Q1  2: Reg1 Q2  3: Reg1 Q3  4: Reg1 Q4
+      5: Reg1 Q5  6: Reg1 Q6  7: Reg1 Q7
+      8: Reg2 Q1  9: Reg2 Q2  0: Reg2 Q3
+      (Reg2 Q0 ist leer/übersprungen)
 
-      Reg3 Q1(Bit0) -> 5
-      Reg3 Q2(Bit1) -> 6
-      Reg3 Q3(Bit2) -> 7
-      Reg3 Q4(Bit3) -> 8
-      Reg3 Q5(Bit4) -> 9
-      Reg3 Q6(Bit5) -> 0
+      Einer-Stelle:
+      1: Reg2 Q4  2: Reg2 Q5  3: Reg2 Q6  4: Reg2 Q7
+      5: Reg3 Q1  6: Reg3 Q2  7: Reg3 Q3  8: Reg3 Q4  9: Reg3 Q5  0: Reg3 Q6
+      (Reg3 Q0 ist leer/übersprungen)
     */
 
     // Zehner Mapping
     switch(tens) {
-        case 0: reg2 |= (1<<2); break;
-        case 1: reg1 |= (1<<0); break;
-        case 2: reg1 |= (1<<1); break;
-        case 3: reg1 |= (1<<2); break;
-        case 4: reg1 |= (1<<3); break;
-        case 5: reg1 |= (1<<4); break;
-        case 6: reg1 |= (1<<5); break;
-        case 7: reg1 |= (1<<6); break;
-        case 8: reg2 |= (1<<0); break;
-        case 9: reg2 |= (1<<1); break;
+        case 1: reg1 |= (1<<1); break;
+        case 2: reg1 |= (1<<2); break;
+        case 3: reg1 |= (1<<3); break;
+        case 4: reg1 |= (1<<4); break;
+        case 5: reg1 |= (1<<5); break;
+        case 6: reg1 |= (1<<6); break;
+        case 7: reg1 |= (1<<7); break;
+        case 8: reg2 |= (1<<1); break;
+        case 9: reg2 |= (1<<2); break;
+        case 0: reg2 |= (1<<3); break;
     }
 
     // Einer Mapping
     switch(ones) {
-        case 0: reg3 |= (1<<5); break;
-        case 1: reg2 |= (1<<3); break;
-        case 2: reg2 |= (1<<4); break;
-        case 3: reg2 |= (1<<5); break;
-        case 4: reg2 |= (1<<6); break;
-        case 5: reg3 |= (1<<0); break;
-        case 6: reg3 |= (1<<1); break;
-        case 7: reg3 |= (1<<2); break;
-        case 8: reg3 |= (1<<3); break;
-        case 9: reg3 |= (1<<4); break;
+        case 1: reg2 |= (1<<4); break;
+        case 2: reg2 |= (1<<5); break;
+        case 3: reg2 |= (1<<6); break;
+        case 4: reg2 |= (1<<7); break;
+        case 5: reg3 |= (1<<1); break;
+        case 6: reg3 |= (1<<2); break;
+        case 7: reg3 |= (1<<3); break;
+        case 8: reg3 |= (1<<4); break;
+        case 9: reg3 |= (1<<5); break;
+        case 0: reg3 |= (1<<6); break;
     }
 
     write_nixie_register(reg1, reg2, reg3);
