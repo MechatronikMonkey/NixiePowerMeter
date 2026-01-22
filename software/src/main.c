@@ -47,7 +47,9 @@
 #define R_BOT_OHM           3300.0f
 #define DIVIDER_FACTOR      (R_BOT_OHM / (R_TOP_OHM + R_BOT_OHM))
 
-#define SENSOR_OFFSET_V     2.50f       // Nullpunkt des Sensors (0A)
+// #define SENSOR_OFFSET_V     2.50f       // Nullpunkt des Sensors (0A) - Now variable
+float g_sensor_offset_v = 2.50f;
+
 #define SENSOR_SENSITIVITY  0.3333f     // Volt pro Ampere am Sensor-Ausgang
 
 // ADC Referenzspannung (nominal 3.3V, muss kalibriert werden für Präzision)
@@ -121,6 +123,38 @@ void load_mode_from_nvs() {
                 current_mode_idx = (int)mode;
                 ESP_LOGI(TAG, "Mode %d loaded from NVS", current_mode_idx);
             }
+        }
+        nvs_close(my_handle);
+    }
+}
+
+void save_offset_to_nvs(float offset) {
+    nvs_handle_t my_handle;
+    esp_err_t err = nvs_open("storage", NVS_READWRITE, &my_handle);
+    if (err != ESP_OK) {
+        ESP_LOGE(TAG, "Error opening NVS handle for offset!");
+    } else {
+        // NVS supports float? No, usually i32, u32, blob. Use blob or cast to int (e.g. * 1000).
+        // Using blob is cleaner for float.
+        err = nvs_set_blob(my_handle, "offset_v", &offset, sizeof(float));
+        if (err == ESP_OK) {
+            err = nvs_commit(my_handle);
+            ESP_LOGI(TAG, "Offset %.4f V saved to NVS", offset);
+        }
+        nvs_close(my_handle);
+    }
+}
+
+void load_offset_from_nvs() {
+    nvs_handle_t my_handle;
+    esp_err_t err = nvs_open("storage", NVS_READWRITE, &my_handle);
+    if (err == ESP_OK) {
+        size_t required_size = sizeof(float);
+        float offset = 2.5f;
+        err = nvs_get_blob(my_handle, "offset_v", &offset, &required_size);
+        if (err == ESP_OK && required_size == sizeof(float)) {
+            g_sensor_offset_v = offset;
+            ESP_LOGI(TAG, "Offset %.4f V loaded from NVS", g_sensor_offset_v);
         }
         nvs_close(my_handle);
     }
@@ -343,7 +377,7 @@ float raw_to_ampere(uint32_t raw_val) {
     float v_sensor = v_pin / DIVIDER_FACTOR;
 
     // 3. Offset entfernen (AC Kopplung im mathematischen Sinne)
-    float v_delta = v_sensor - SENSOR_OFFSET_V;
+    float v_delta = v_sensor - g_sensor_offset_v;
 
     // 4. In Ampere umrechnen
     float ampere = v_delta / SENSOR_SENSITIVITY;
@@ -419,6 +453,9 @@ void main_logic_task(void *pvParameters) {
     bool is_test_mode = false;
     int test_counter = 0;
 
+    // Helper for calibration
+    float latest_calib_raw_avg = 0.0f; 
+
     adc_chunk_result_t chunk_in;
     
     double total_sum_sq = 0;
@@ -435,6 +472,7 @@ void main_logic_task(void *pvParameters) {
 
     // Load saved mode
     load_mode_from_nvs();
+    load_offset_from_nvs();
     
     // Set initial LED color based on loaded mode
     const mode_config_t *m_start = &MODES[current_mode_idx];
@@ -463,6 +501,24 @@ void main_logic_task(void *pvParameters) {
                     if (is_test_mode) {
                         set_led_status(LED_BLINK_FAST, 255, 255, 255); // White Fast Blink
                         test_counter = 0;
+                        
+                        // CALIBRATION on Entry: 
+                        // Use the last known average RAW value to set 0-point
+                        if (latest_calib_raw_avg > 100.0f) { // Check validity
+                            // Calc Voltage
+                            float v_pin = (latest_calib_raw_avg / ADC_MAX_VAL) * ADC_REF_V;
+                            float v_sensor = v_pin / DIVIDER_FACTOR; // Should be around 2.5V
+                            
+                            // Safety Check
+                            if (v_sensor > 1.5f && v_sensor < 3.5f) {
+                                g_sensor_offset_v = v_sensor;
+                                save_offset_to_nvs(g_sensor_offset_v);
+                                ESP_LOGI(TAG, "Calibration DONE. New Offset: %.4f V (Raw: %.1f)", g_sensor_offset_v, latest_calib_raw_avg);
+                            } else {
+                                ESP_LOGE(TAG, "Calibration FAILED. Value out of range: %.4f V", v_sensor);
+                            }
+                        }
+                        
                     } else {
                         // Restore Status by cleaning Queue (Monitoring will pick up)
                         update_display(0);
@@ -525,6 +581,9 @@ void main_logic_task(void *pvParameters) {
                     rms_amperes = sqrtf(total_sum_sq / total_samples);
                     dc_avg_amp = (float)(total_sum_volts / total_samples);
                     raw_avg = (float)total_sum_raw / total_samples;
+                    
+                    // Store for calibration logic
+                    latest_calib_raw_avg = raw_avg;
                 }
 
                 // Apply Factor based on Mode
