@@ -9,6 +9,8 @@
 #include "esp_adc/adc_continuous.h"
 #include "driver/gpio.h"
 #include "ws2812_control.h"
+#include "nvs_flash.h"
+#include "nvs.h"
 
 // =========================================================
 // KONFIGURATION (HIER ANPASSEN)
@@ -89,6 +91,40 @@ static const mode_config_t MODES[] = {
     {16.0f, 0, 0, 30}    // 2: Factor 16 (Blue)
 };
 static int current_mode_idx = 0; // Default Factor 4
+
+// =========================================================
+// NVS STORAGE HELPER
+// =========================================================
+void save_mode_to_nvs(int mode_idx) {
+    nvs_handle_t my_handle;
+    esp_err_t err = nvs_open("storage", NVS_READWRITE, &my_handle);
+    if (err != ESP_OK) {
+        ESP_LOGE(TAG, "Error (%s) opening NVS handle!", esp_err_to_name(err));
+    } else {
+        err = nvs_set_i32(my_handle, "mode_idx", mode_idx);
+        if (err == ESP_OK) {
+            err = nvs_commit(my_handle);
+            ESP_LOGI(TAG, "Mode %d saved to NVS", mode_idx);
+        }
+        nvs_close(my_handle);
+    }
+}
+
+void load_mode_from_nvs() {
+    nvs_handle_t my_handle;
+    esp_err_t err = nvs_open("storage", NVS_READWRITE, &my_handle);
+    if (err == ESP_OK) {
+        int32_t mode = 0;
+        err = nvs_get_i32(my_handle, "mode_idx", &mode);
+        if (err == ESP_OK) {
+            if (mode >= 0 && mode < 3) {
+                current_mode_idx = (int)mode;
+                ESP_LOGI(TAG, "Mode %d loaded from NVS", current_mode_idx);
+            }
+        }
+        nvs_close(my_handle);
+    }
+}
 
 // =========================================================
 // LED STATUS SERVICE (WS2812B)
@@ -397,6 +433,13 @@ void main_logic_task(void *pvParameters) {
     uint64_t total_samples_since_boot = 0;
     TickType_t last_monitor_time = xTaskGetTickCount();
 
+    // Load saved mode
+    load_mode_from_nvs();
+    
+    // Set initial LED color based on loaded mode
+    const mode_config_t *m_start = &MODES[current_mode_idx];
+    set_led_status(LED_STATIC, m_start->r, m_start->g, m_start->b);
+
     while(1) {
         // Button Polling (Active Low)
         int btn_level = gpio_get_level(BUTTON_PIN);
@@ -435,6 +478,7 @@ void main_logic_task(void *pvParameters) {
                     // Only switch if NOT in test mode (optional, but cleaner)
                     if (!is_test_mode) {
                         current_mode_idx = (current_mode_idx + 1) % 3;
+                        save_mode_to_nvs(current_mode_idx); // Persist
                         const mode_config_t *m = &MODES[current_mode_idx];
                         set_led_status(LED_STATIC, m->r, m->g, m->b);
                         mode_feedback_end_time = now + pdMS_TO_TICKS(2000);
@@ -565,6 +609,14 @@ static void continuous_adc_init(adc_channel_t *channel, uint8_t channel_num, adc
 }
 
 void app_main(void) {
+    // 0. NVS Init (Persistence)
+    esp_err_t ret = nvs_flash_init();
+    if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
+      ESP_ERROR_CHECK(nvs_flash_erase());
+      ret = nvs_flash_init();
+    }
+    ESP_ERROR_CHECK(ret);
+
     // 1. Queue Init (Increased size to buffer ~160ms of data)
     result_queue = xQueueCreate(50, sizeof(adc_chunk_result_t));
 
