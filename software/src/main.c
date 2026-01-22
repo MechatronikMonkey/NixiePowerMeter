@@ -485,7 +485,10 @@ void main_logic_task(void *pvParameters) {
 
                 // Apply Factor based on Mode
                 float factor = MODES[current_mode_idx].factor;
-                int display_val = (int)(rms_amperes * factor + 0.5f);
+                
+                // Calculate Power in Watts (P = I^2 * R)
+                float power_watts = (rms_amperes * rms_amperes) * factor;
+                int display_val = (int)(power_watts + 0.5f);
                 
                 // Detailed Logging for Debugging the "30" issue
                 // Wenn raw_avg ~0 ist, hat der Sensor 0V output (Pin auf GND).
