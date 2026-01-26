@@ -257,10 +257,14 @@ void init_shift_register() {
     gpio_reset_pin(SR_OE_PIN);
     gpio_reset_pin(SR_MR_PIN);
 
+    // Safer Init: OE High (Disable) first
+    gpio_set_level(SR_OE_PIN, 1);
+    gpio_set_direction(SR_OE_PIN, GPIO_MODE_OUTPUT);
+    gpio_set_level(SR_OE_PIN, 1); // Ensure Disabled
+
     gpio_set_direction(SR_DATA_PIN, GPIO_MODE_OUTPUT);
     gpio_set_direction(SR_CLOCK_PIN, GPIO_MODE_OUTPUT);
     gpio_set_direction(SR_LATCH_PIN, GPIO_MODE_OUTPUT);
-    gpio_set_direction(SR_OE_PIN, GPIO_MODE_OUTPUT);
     gpio_set_direction(SR_MR_PIN, GPIO_MODE_OUTPUT);
     
     // Initial State
@@ -273,6 +277,10 @@ void init_shift_register() {
     
     // Release Reset
     gpio_set_level(SR_MR_PIN, 1);
+    
+    // Clean start: Shift out zeros
+    gpio_set_level(SR_LATCH_PIN, 1);
+    gpio_set_level(SR_LATCH_PIN, 0);
 
     // OE (Output Enable) - Low active.
     // Low = Outputs enabled (Visible). High = High-Z (Off).
@@ -668,7 +676,11 @@ static void continuous_adc_init(adc_channel_t *channel, uint8_t channel_num, adc
 }
 
 void app_main(void) {
-    // 0. NVS Init (Persistence)
+    // 0. IO Init (Safety first! Prevent floating pins during NVS init)
+    init_shift_register();
+    init_led();
+
+    // 1. NVS Init (Persistence)
     esp_err_t ret = nvs_flash_init();
     if (ret == ESP_ERR_NVS_NO_FREE_PAGES || ret == ESP_ERR_NVS_NEW_VERSION_FOUND) {
       ESP_ERROR_CHECK(nvs_flash_erase());
@@ -676,12 +688,10 @@ void app_main(void) {
     }
     ESP_ERROR_CHECK(ret);
 
-    // 1. Queue Init (Increased size to buffer ~160ms of data)
+    // 2. Queue Init (Increased size to buffer ~160ms of data)
     result_queue = xQueueCreate(50, sizeof(adc_chunk_result_t));
 
-    // 2. IO Init
-    init_shift_register();
-    init_led();
+
 
     // 3. ADC Init
     adc_channel_t channel[1] = {ADC_CHANNEL};
